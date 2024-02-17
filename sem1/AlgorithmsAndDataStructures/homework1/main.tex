@@ -1,0 +1,235 @@
+\documentclass{article}
+\usepackage[T2A]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage[russian]{babel}
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage[makeroom]{cancel}
+\usepackage{hyphenat}
+\hyphenation{ма-те-ма-ти-ка вос-ста-нав-ли-вать}
+\usepackage{graphicx}
+
+\title{Домашнее Задание №1}
+\author{Дарвин Эдлеазар Пиче Круз}
+
+\begin{document}
+
+\maketitle
+
+\section{}
+
+Для каждой из приведенных ниже программ найдите и аргументируйте точную $\mathcal{O}$ асимптотику времени ее работы
+
+\begin{tabbing}
+    \hspace{1 cm} \= \hspace{1 cm}  \= \hspace{1 cm} \= \hspace{1 cm} \= \hspace{1 cm}\\
+\> (a) for i = 0..n:\\
+\>\> for j = 0..i:\\
+\> \> \> for k = 0..j:\\
+\>\>\>\> print(i, j, k)
+\end{tabbing}
+
+\textbf{Решение}
+
+Первый цикл выполняет $n$ операций, в каждом из них второй цикл делает $i$ операций значит:
+\begin{equation*}
+    1+2+3+...+n
+\end{equation*}
+И третий цикл делает $j$ операции для каждой итерации второго цикла, значит:
+\begin{equation*}
+    (1(1)+2(2)+3(3)+...+n(n)) = (1^2+2^2+...+n^2) = \dfrac{n(n+1)(2n + 1)}{6}
+\end{equation*}
+очевидно что он работает в $\mathcal{O}(n^3)$
+
+\begin{tabbing}
+    \hspace{1 cm} \= \hspace{1 cm}  \= \hspace{1 cm} \= \hspace{1 cm} \= \hspace{1 cm}\\
+\> (b)for i = 0..n:\\
+\>\>j = 0, k = 2 $\cdot$ i\\
+\>\>while j < k:\\
+\>\>\>j++, k- -\\
+\end{tabbing}
+
+\textbf{Решение}
+
+Первый цикл выполняет $n$ операций, в каждом из них второй цикл делает $i$ операций (так как 
+$k = 2\cdot i$ но j и k привлижаются друг к другу 2 два блока в одной итерации) значит:
+\begin{equation*}
+    1+2+3+...+n = \dfrac{n(n + 1)}{2}
+\end{equation*}
+
+очевидно что оно работает в $\mathcal{O}(n^2)$
+
+\begin{tabbing}
+    \hspace{0.5 cm} \= \hspace{0.5 cm}  \= \hspace{0.5 cm} \= \hspace{0.5 cm} \= \hspace{0.5 cm}\\
+\> (c)i = 1\\
+\>\>while i < n:\\
+\>\>\>for j = 0..i:\\
+\>\>\>\>print(i, j)\\
+\>\>\>i = i $\cdot$  2
+\end{tabbing}
+
+\textbf{Решение}
+
+Первый цикл выполняет $\log n$ операций (так как каждый раз $i$ увеличивает два раза, значит приближается к $n$ два раза быстрее),
+ в каждом из них второй цикл делает $i$ операций значит:
+\begin{equation*}
+    1+2+4+...+2^{\log n} = 2^{\log (n) + 1} - 1 = 2\cdot 2^{\log n} - 1 = 2n - 1
+\end{equation*}
+
+очевидно что оно работает в $\mathcal{O}(n)$
+
+\begin{tabbing}
+    \hspace{0.5 cm} \= \hspace{0.5 cm}  \= \hspace{0.5 cm} \= \hspace{0.5 cm} \= \hspace{0.5 cm}\\
+\> (d)for i= 0..n \\
+\>\>j = i\\
+\>\>\>while j > 0:\\
+\>\>\>\>j = j / 2\\
+
+\end{tabbing}
+
+\textbf{Решение}
+
+Первый цикл выполняет $n$ операций, 
+ в каждом из них второй цикл делает $\log i$ операций значит:
+\begin{equation*}
+    \log (1) + \log (2) + \log (3) \cdots + \log (n)
+\end{equation*}
+
+изпользуя метод интегралами:
+
+\begin{equation*}
+    \log (1) + \log (2) + \log (3) \cdots + \log (n) = \int_{1}^{n} log(x) dx
+\end{equation*}
+\begin{equation*}
+    \int_{1}^{n} log(x) dx = \dfrac{n \cdot \log (n) - 1}{log(2)} = \dfrac{n\cdot \log (n) - n}{\log (2)}
+\end{equation*}
+Алгоритм работает в $\mathcal{O}(n \log n)$
+
+\bigskip
+\bigskip
+\section{}
+Докажите следующие соотношения по определению (выберите константы $c$ и $n_0$ и докажите соответствующее неравенство)
+\begin{equation*}
+    (a) \;\; \log (n) = \Omega(20)
+\end{equation*}
+
+\textbf{Решение}
+
+Возьмём $n_0 = 2$ и $c = \dfrac{1}{20}$, тогда:
+
+\begin{equation*}
+    \log (n) \geq \dfrac{1}{20}\cdot 20 \; \; \forall n_0 > 1
+\end{equation*}
+
+\newpage
+\begin{equation*}
+    (b) \;\; 2^{n} = \mathcal{O}(3^n)
+\end{equation*}
+
+\textbf{Решение}
+
+Возьмём $n_0 = 1$ и $c = 1$, тогда:
+
+\begin{equation*}
+    2^n \leq 3^n \; \; \forall n_0 \geq 1
+\end{equation*}
+
+\bigskip
+\bigskip
+\begin{equation*}
+    (c) \;\; n(n - 8) = \Omega(n^2)
+\end{equation*}
+
+\textbf{Решение}
+
+Возьмём $n_0 = 9$ и $c = 1/81$, тогда:
+
+\begin{equation*}
+    n^2 - 8n \geq \dfrac{n^2}{81} \;\; \forall n_0 \geq 9
+\end{equation*}
+
+
+\bigskip
+\bigskip
+\begin{equation*}
+    (d) \;\; 3n + 2\sqrt{n} = \mathcal{O}(n \log n)
+\end{equation*}
+
+\textbf{Решение}
+
+Возьмём $n_0 = 2$ и $c = 10$, тогда:
+
+\begin{equation*}
+    3n + 2\sqrt{n} \leq 10n \log n \;\; \forall n > 1
+\end{equation*}
+
+
+
+
+\bigskip
+\bigskip
+\begin{equation*}
+    (e) \;\; n! = \Omega (5^n)
+\end{equation*}
+
+\textbf{Решение}
+
+Возьмём $n_0 = 1$ и $c = \dfrac{1}{48828125}$, тогда:
+
+\begin{equation*}
+    n! \geq \dfrac{5^n}{48828125} \;\; \forall n >= 1
+\end{equation*}
+
+\section{}
+Докажите, что если $f(n) = \mathcal{O}(h(n))$ и $g(n) = \mathcal{O}(h(n))$, то $f(n) + g(n) = \mathcal{O}(h(n))$
+
+\textbf{Решение}
+
+так как $f(n) = \mathcal{O}(h(n)) \rightarrow f(n) <= c_1\cdot h(n)$ и одновремено $g(n) = \mathcal{O}(h(n)) \rightarrow g(n) <= c_2\cdot h(n)$
+можно считать что:
+
+\begin{equation*}
+    f(n) + g(n) <= (c_1 + c_2)h(n)
+\end{equation*}
+
+Возьмём $c_3 = c_1 + c_2$ тогда:
+
+\begin{equation*}
+    f(n) + g(n) <= c_3\cdot h(n) \rightarrow f(n) + g(n) = \mathcal{O}(h(n))
+\end{equation*}
+
+\section{}
+
+Докажите по индукции, что если $T(n) = 2T\left(\dfrac{n}{4} \right) + \log_{2}(n) \longrightarrow T(n) = O(\log^2 n)$
+
+\textbf{Решение}
+
+База индукции
+
+\begin{equation*}
+    T(1) = 1\\
+\end{equation*}
+\begin{equation*}
+    T(4) = 2(1) + \log_{2}(4) = 4 <= c\log^2(4)
+\end{equation*}
+
+\begin{equation*}
+    T(16) = 2(4) + \log_{2}(16) = 12 <= c\log^2(8)
+\end{equation*}
+при $c \geq 3$\\
+Пусть для некоторых $n$
+\begin{equation*}
+    T(n / 4) + \log_{2}n <= c\cdot log^2(4)
+\end{equation*}
+переход:
+\begin{equation*}
+    T(n + 1)=2T\left(\dfrac{n+1}{4}\right) + \log_{2}(n + 1)
+\end{equation*}
+\begin{equation*}
+    = 2\left(2T\left(\dfrac{n+1}{8}\right) + \log_{2}\left(\dfrac{n+1}{4}\right) \right) + \log_{2}(n + 1)
+\end{equation*}
+
+очевидно что $2\left(2T\left(\dfrac{n+1}{8}\right) + \log_{2}\left(\dfrac{n+1}{4}\right) \right) \leq c_2 \cdot \log^2 (n + 1)$ по скольку меньше чем $c_1 \cdot \log^2 \left(\dfrac{n + 1}{4}\right)$, тоже очевидно, что $\log_{2} n <= c2 \log^2 (n + 1)$ при $c_2$ достаточно большой. Тогда:
+\begin{equation*}
+    T(n + 1) = \mathcal{O}(\log^2 (n + 1))
+\end{equation*}
+\end{document}

@@ -1,0 +1,111 @@
+start: s
+accept: ac
+reject: rj
+blank: _
+
+s 1 -> s 1 >
+s 0 -> s 0 >
+s _ -> toHead y <
+
+toHead 0 -> toHead 0 <
+toHead 1 -> toHead 1 <
+toHead y -> toHead y <
+toHead a -> toHead a <
+toHead b -> toHead b <
+toHead x -> rewrite x >
+toHead _ -> begin _ >
+
+write0 0 -> write0 0 >
+write0 1 -> write0 1 >
+write0 x -> write0 x >
+write0 y -> write0 y >
+write0 a -> write0 a >
+write0 b -> write0 b >
+write0 _ -> restore 0 <
+
+write1 0 -> write1 0 >
+write1 1 -> write1 1 >
+write1 x -> write1 x >
+write1 y -> write1 y >
+write1 a -> write1 a >
+write1 b -> write1 b >
+write1 _ -> restore 1 <
+
+begin 1 -> write1 x >
+begin 0 -> write0 x >
+
+searchy 0 -> searchy 0 <
+searchy 1 -> searchy 1 <
+searchy a -> searchy a <
+searchy b -> searchy b <
+searchy y -> getFirst y >
+
+getFirst a -> getFirst a >
+getFirst b -> getFirst b >
+getFirst 1 -> toHeadOne b <
+getFirst 0 -> toHeadZero a <
+getFirst _ -> restore _ <
+
+restore b -> restore 1 <
+restore a -> restore 0 <
+restore 0 -> restore 0 <
+restore 1 -> restore 1 <
+restore y -> getFirst y >
+restore x -> rewrite x >
+
+toHeadZero 0 -> toHeadZero 0 <
+toHeadZero 1 -> toHeadZero 1 <
+toHeadZero y -> toHeadZero y <
+toHeadZero a -> toHeadZero a <
+toHeadZero b -> toHeadZero b <
+toHeadZero x -> getZero x >
+
+toHeadOne 0 -> toHeadOne 0 <
+toHeadOne 1 -> toHeadOne 1 <
+toHeadOne y -> toHeadOne y <
+toHeadOne a -> toHeadOne a <
+toHeadOne b -> toHeadOne b <
+toHeadOne x -> getOne x >
+
+getOne 1 -> next b >
+getOne a -> getOne a >
+getOne b -> getOne b >
+getOne 0 -> restore a <
+getOne y -> verify y >
+
+getZero 0 -> next a >
+getZero a -> getZero a >
+getZero b -> getZero b >
+getZero 1 -> restore b <
+getZero y -> verify y >
+
+next y -> getFirst y >
+next 0 -> next 0 >
+next 1 -> next 1 >
+
+rewrite a -> write0 x >
+rewrite b -> write1 x >
+rewrite 1 -> rewrite1 x >
+rewrite 0 -> rewrite0 x >
+
+rewrite0 0 -> rewrite0 0 >
+rewrite0 1 -> rewrite0 1 >
+rewrite0 x -> rewrite0 x >
+rewrite0 y -> rewrite0 y >
+rewrite0 a -> rewrite0 a >
+rewrite0 b -> rewrite0 b >
+rewrite0 _ -> toHead 0 <
+
+rewrite1 0 -> rewrite1 0 >
+rewrite1 1 -> rewrite1 1 >
+rewrite1 x -> rewrite1 x >
+rewrite1 y -> rewrite1 y >
+rewrite1 a -> rewrite1 a >
+rewrite1 b -> rewrite1 b >
+rewrite1 _ -> toHead 1 <
+
+verify a -> verify a >
+verify b -> verify b >
+verify 0 -> rj 0 >
+verify 1 -> rj 1 >
+verify _ -> ac _ ^

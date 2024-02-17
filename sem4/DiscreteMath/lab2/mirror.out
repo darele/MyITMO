@@ -1,0 +1,32 @@
+start: s
+accept: ac
+reject: rj
+blank: _
+
+s 1 -> s 1 >
+s 0 -> s 0 >
+s _ -> numLook _ <
+
+numLook _ -> ac _ >
+numLook 1 -> write1 x >
+numLook 0 -> write0 x >
+numLook x -> numLook x <
+
+write0 0 -> write0 0 >
+write0 1 -> write0 1 >
+write0 x -> write0 x >
+write0 _ -> searchX0 0 <
+
+write1 0 -> write1 0 >
+write1 1 -> write1 1 >
+write1 x -> write1 x >
+write1 _ -> searchX1 1 <
+
+searchX0 0 -> searchX0 0 <
+searchX0 1 -> searchX0 1 <
+searchX0 x -> numLook 0 <
+
+searchX1 0 -> searchX1 0 <
+searchX1 1 -> searchX1 1 <
+searchX1 x -> numLook 1 <
+

@@ -1,0 +1,50 @@
+start: s
+accept: ac
+reject: rj
+blank: _
+
+s 0 -> s 0 >
+s 1 -> s 1 >
+s + -> s + >
+s _ -> read _ <
+
+read 0 -> have0 c <
+read 1 -> have1 c <
+read + -> rebuild _ <
+
+have0 0 -> have0 0 <
+have0 1 -> have0 1 <
+have0 + -> add0 + <
+
+add0 a -> add0 a <
+add0 b -> add0 b <
+add0 0 -> toEnd a >
+add0 _ -> toEnd a >
+add0 1 -> toEnd b >
+
+toEnd 0 -> toEnd 0 >
+toEnd 1 -> toEnd 1 >
+toEnd a -> toEnd a >
+toEnd b -> toEnd b >
+toEnd + -> toEnd + >
+toEnd c -> read _ <
+
+have1 0 -> have1 0 <
+have1 1 -> have1 1 <
+have1 + -> add1 + <
+
+add1 a -> add1 a <
+add1 b -> add1 b <
+add1 0 -> toEnd b >
+add1 _ -> toEnd b >
+add1 1 -> carry a <
+
+carry 1 -> carry 0 <
+carry 0 -> toEnd 1 >
+carry _ -> toEnd 1 >
+
+rebuild _ -> ac _ >
+rebuild 1 -> rebuild 1 <
+rebuild 0 -> rebuild 0 <
+rebuild a -> rebuild 0 <
+rebuild b -> rebuild 1 <

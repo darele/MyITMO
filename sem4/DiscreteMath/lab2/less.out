@@ -1,0 +1,85 @@
+start: s
+accept: ac
+reject: rj
+blank: _
+
+s 1 -> s 1 >
+s 0 -> s 0 >
+s < -> s < >
+s _ -> toHead y <
+
+toHead 0 -> toHead 0 <
+toHead 1 -> toHead 1 <
+toHead < -> toHead < <
+toHead x -> toHead x <
+toHead y -> toHead y <
+toHead b -> toHead b <
+toHead a -> toHead a <
+toHead _ -> begin _ >
+
+begin 0 -> findless a >
+begin 1 -> findless b >
+begin a -> begin a >
+begin b -> begin b >
+begin < -> verify < >
+
+findless 0 -> findless 0 >
+findless 1 -> findless 1 >
+findless < -> copyNext < >
+
+copyNext 0 -> write0 x >
+copyNext 1 -> write1 x >
+copyNext x -> copyNext x >
+copyNext y -> rj y ^
+
+write0 0 -> write0 0 >
+write0 1 -> write0 1 >
+write0 y -> write0 y >
+write0 _ -> toHead 0 <
+
+write1 0 -> write1 0 >
+write1 1 -> write1 1 >
+write1 y -> write1 y >
+write1 _ -> toHead 1 <
+
+verify a -> verify a >
+verify b -> verify b >
+verify 0 -> ac 0 ^
+verify 1 -> ac 1 ^
+verify x -> verify x >
+verify y -> compareToHead y <
+
+
+
+
+compareToHead 0 -> compareToHead 0 <
+compareToHead 1 -> compareToHead 1 <
+compareToHead < -> compareToHead < <
+compareToHead x -> compareToHead x <
+compareToHead y -> compareToHead y <
+compareToHead b -> compareToHead b <
+compareToHead a -> compareToHead a <
+compareToHead _ -> compare _ >
+
+compare a -> found0 x >
+compare b -> found1 x >
+compare x -> compare x >
+compare < -> rj < ^
+
+found0 a -> found0 a >
+found0 b -> found0 b >
+found0 < -> find0 < >
+
+found1 a -> found1 a >
+found1 b -> found1 b >
+found1 < -> find1 < >
+
+find0 x -> find0 x >
+find0 y -> find0 y >
+find0 1 -> ac 1 ^
+find0 0 -> compareToHead x <
+
+find1 x -> find1 x >
+find1 y -> find1 y >
+find1 1 -> compareToHead x <
+find1 0 -> rj 0 ^

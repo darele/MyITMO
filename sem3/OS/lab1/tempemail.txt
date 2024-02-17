@@ -1,0 +1,3125 @@
+# If this is an xterm set the title to user@host:dir
+# Authors: Jason Tang <jtang@tresys.com>
+	# $1: root dataset (eg rpool/ROOT/ubuntu_2zhm07@autozsys_k56fr6)
+	# $3: initrd (eg /BOOT/ubuntu_2zhm07@autozsys_k56fr6/initrd.img-5.4.0-21-generic)
+	# $4: kernel (eg /BOOT/ubuntu_2zhm07@autozsys_k56fr6/vmlinuz-5.4.0-21-generic)
+# Copyright (C) 2010  Alexander Kurtz <kurtz.alex@googlemail.com>
+# Version:	@(#)hwclock.sh  2.00  14-Dec-1998  miquels@cistron.nl
+#		2000-01-30 Henrique M. Holschuh <hmh@rcm.org.br>
+#               2012-02-16 Roger Leigh <rleigh@debian.org>
+# Author:	"Theodore Ts'o" <tytso@mit.edu>
+# Author:       Ryan Murray <rmurray@debian.org>
+# Author: Michael Biebl <biebl@debian.org>
+# Author: Debian Printing Team <debian-printing@lists.debian.org>
+# Copyright © 2003 Colin Walters <walters@debian.org>
+# Copyright © 2005 Sjoerd Simons <sjoerd@debian.org>
+# Edd Dumbill <ejad@debian.org>
+# LSB 3.0 compilance and enhancements by Filippo Giunchedi <filippo@debian.org>
+# Updated for bluez 4.7 by Mario Limonciello <mario_limonciello@dell.com>
+# Updated for bluez 5.5 by Nobuhiro Iwamatsu <iwamatsu@debian.org>
+#  Steve Beattie <steve.beattie@canonical.com>
+#  Kees Cook <kees@ubuntu.com>
+# written by Elrond <Elrond@Wunder-Nett.org>
+# <rob@mars.org>, edited by iwj and cs
+# Modified for openvpn by Alberto Gonzalez Iniesta <agi@inittab.org>
+# Modified for restarting / starting / stopping single tunnels by Richard Mueller <mueller@teamix.net>
+# Author: Laurent Bigonville <bigon@debian.org>
+;;          Agustin Martin     <agmartin@debian.org>
+Binary file (standard input) matches
+#    Authors: Dustin Kirkland <kirkland@canonical.com>
+#    Authors: Dustin Kirkland <kirkland@canonical.com>
+#             Steve Langasek <steve.langasek@canonical.com>
+#    Authors: Dustin Kirkland <kirkland@canonical.com>,
+#             Brian Murray <brian@canonical.com>
+#    Authors: Jonathan Davies <jonathan.davies@canonical.com>
+#             Bryan Quigley <bryan.quigley@canonical.com>
+#             Rene Engelhard <rene@debian.org>
+#    Author: Bryan Quigley <bryan.quigley@canonical.com>
+#            Rene Engelhard <rene@debian.org>
+# Author: Daniel Dressler <danieru.dressler@gmail.com>
+#    Authors: Bryan Quigley <bryan.quigley@canonical.com>
+#             Rene Engelhard <rene@debian.org>
+# Author: Jamie Strandboge <jamie@canonical.com>
+#    Copyright (C) 2016 intrigeri <intrigeri@boum.org>
+#    Authors: Bryan Quigley <bryan.quigley@canonical.com>
+#             Rene Engelhard <rene@debian.org>
+# Author: Martin Pitt <martin.pitt@ubuntu.com>
+# Author: Jamie Strandboge <jamie@canonical.com>
+#header = From: Your Name <username@site.domain>
+Binary file (standard input) matches
+Binary file (standard input) matches
+Binary file (standard input) matches
+Binary file (standard input) matches
+// 'mailx' must be installed. E.g. "user@example.com"
+        MetaKey "$(COMPONENT)/dep11/icons-64x64@2.tar";
+        Description "$(RELEASE)/$(COMPONENT) DEP-11 64x64@2 Icons";
+        MetaKey "$(COMPONENT)/dep11/icons-128x128@2.tar";
+        Description "$(RELEASE)/$(COMPONENT) DEP-11 128x128@2 Icons";
+# Originally created by Jim Knoble <jmknoble@mercury.interpath.net>
+# Modified for Debian by alvar Bray <alvar@meiko.co.uk>
+# Modified for PPP Server setup by Christoph Lameter <clameter@debian.org>
+# MUST CHANGE: replace myusername@realm with the PPP login name given to
+user "myusername@realm"
+# Author: Gunnar Hjalmarsson <gunnarhj@ubuntu.com>
+#   MACs hmac-md5,hmac-sha1,umac-64@openssh.com
+# Jon Chambers <jon@jon.demon.co.uk>, 2006-08-12
+# the SANE/Avision maintainer: Mike Kelly <mike@piratehaven.org>
+#   Copyright (C) 1998, 1999 Jean Pierre LeJacq <jplejacq@quoininc.com>
+#   Modified 2003 by Martin Pitt <martin@piware.de>
+# Author: Gunnar Hjalmarsson <gunnarhj@ubuntu.com>
+# aa_ER@saaho UTF-8
+# be_BY@latin UTF-8
+# br_FR@euro ISO-8859-15
+# ca_ES@euro ISO-8859-15
+# ca_ES@valencia UTF-8
+# de_AT@euro ISO-8859-15
+# de_BE@euro ISO-8859-15
+# de_DE@euro ISO-8859-15
+# de_LU@euro ISO-8859-15
+# el_GR@euro ISO-8859-7
+# en_IE@euro ISO-8859-15
+# es_ES@euro ISO-8859-15
+# eu_ES@euro ISO-8859-15
+# eu_FR@euro ISO-8859-15
+# fi_FI@euro ISO-8859-15
+# fr_BE@euro ISO-8859-15
+# fr_FR@euro ISO-8859-15
+# fr_LU@euro ISO-8859-15
+# ga_IE@euro ISO-8859-15
+# gez_ER@abegede UTF-8
+# gez_ET@abegede UTF-8
+# gl_ES@euro ISO-8859-15
+# it_IT@euro ISO-8859-15
+# ks_IN@devanagari UTF-8
+# nan_TW@latin UTF-8
+# nl_BE@euro ISO-8859-15
+# nl_NL@euro ISO-8859-15
+# pt_PT@euro ISO-8859-15
+# sd_IN@devanagari UTF-8
+# sr_RS@latin UTF-8
+# sv_FI@euro ISO-8859-15
+# tt_RU@iqtelif UTF-8
+# ug_CN@latin UTF-8
+# uz_UZ@cyrillic UTF-8
+# wa_BE@euro ISO-8859-15
+# Copyright: Copyright (c) 2008-2010, Kel Modderman <kel@otaku42.de>
+# <pkg-wpa-devel@lists.alioth.debian.org>
+# <pkg-wpa-devel@lists.alioth.debian.org>
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# Sébastien Hinderer <Sebastien.Hinderer@ens-lyon.org>
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# Maintained by John J. Boyer, director@chpi.org, www.chpi.org
+# This table is built and maintained by Leon Ungier <Leon.Ungier@ViewPlus.com>
+# with help and guidance from Mohammed R. Ramadan <mramadan@nattiq.com>
+# Converted from liblouis table by Samuel Thibault <samuel.thibault@ens-lyon.org>
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# Samuel Thibault <samuel.thibault@ens-lyon.org>
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# Maintained by John J. Boyer, director@chpi.org, www.chpi.org
+# This table is built and maintained by Leon Ungier <Leon.Ungier@ViewPlus.com>
+# with help and guidance from Mohammed R. Ramadan <mramadan@nattiq.com>
+# Converted from liblouis table by Samuel Thibault <samuel.thibault@ens-lyon.org>
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# Created by Leon Ungier <Leon.Ungier@ViewPlus.com>.
+# Edited by Eric <eric@integra-belgium.com>
+# Converted from liblouis table by Samuel Thibault <samuel.thibault@ens-lyon.org>
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# Dave Mielke <dave@mielke.cc>
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# Samuel Thibault <samuel.thibault@ens-lyon.org>
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# Dave Mielke <dave@mielke.cc>
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# Table generated by Sébastien Sablé <sable@users.sourceforge.net> for
+# Table adapted for BRLTTY by Samuel Thibault <samuel.thibault@ens-lyon.org>
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# Maintained by John J. Boyer, director@chpi.org, www.chpi.org
+# This table is built and maintained by Leon Ungier <Leon.Ungier@ViewPlus.com>
+# with help and guidance from Mohammed R. Ramadan <mramadan@nattiq.com>
+# Converted from liblouis table by Samuel Thibault <samuel.thibault@ens-lyon.org>
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# Created by Leon Ungier <Leon.Ungier@ViewPlus.com>.
+# Converted from liblouis table by Samuel Thibault <samuel.thibault@ens-lyon.org>
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# Created by Leon Ungier <Leon.Ungier@ViewPlus.com>.
+# Converted from liblouis table by Samuel Thibault <samuel.thibault@ens-lyon.org>
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# Copyright (C) 2017 Rimas Kudelis <rq@akl.lt>
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# Maintained by John J. Boyer, director@chpi.org, www.chpi.org
+# This table is built and maintained by Leon Ungier <Leon.Ungier@ViewPlus.com>
+# with help and guidance from Mohammed R. Ramadan <mramadan@nattiq.com>
+# Converted from liblouis table by Samuel Thibault <samuel.thibault@ens-lyon.org>
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# Samuel Thibault <samuel.thibault@ens-lyon.org>
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# Samuel Thibault <samuel.thibault@ens-lyon.org>
+# Birkir Gunnarsson, birkir@midstod.is
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# Maintained by John J. Boyer, director@chpi.org, www.chpi.org
+# This table is built and maintained by Leon Ungier <Leon.Ungier@ViewPlus.com>
+# with help and guidance from Mohammed R. Ramadan <mramadan@nattiq.com>
+# Converted from liblouis table by Samuel Thibault <samuel.thibault@ens-lyon.org>
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# Maintained by John J. Boyer, director@chpi.org, www.chpi.org
+# This table is built and maintained by Leon Ungier <Leon.Ungier@ViewPlus.com>
+# with help and guidance from Mohammed R. Ramadan <mramadan@nattiq.com>
+# Converted from liblouis table by Samuel Thibault <samuel.thibault@ens-lyon.org>
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# Samuel Thibault <samuel.thibault@ens-lyon.org>
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# Maintained by John J. Boyer, director@chpi.org, www.chpi.org
+# This table is built and maintained by Leon Ungier <Leon.Ungier@ViewPlus.com>
+# with help and guidance from Mohammed R. Ramadan <mramadan@nattiq.com>
+# Converted from liblouis table by Samuel Thibault <samuel.thibault@ens-lyon.org>
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# Samuel Thibault <samuel.thibault@ens-lyon.org>
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# Samuel Thibault <samuel.thibault@ens-lyon.org>
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# modeled from Russian Braille table by Victor Tsaran <vtsaran@gmail.com>
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# If this is an xterm set the title to user@host:dir
+# Authors: Jason Tang <jtang@tresys.com>
+	# $1: root dataset (eg rpool/ROOT/ubuntu_2zhm07@autozsys_k56fr6)
+	# $3: initrd (eg /BOOT/ubuntu_2zhm07@autozsys_k56fr6/initrd.img-5.4.0-21-generic)
+	# $4: kernel (eg /BOOT/ubuntu_2zhm07@autozsys_k56fr6/vmlinuz-5.4.0-21-generic)
+# Copyright (C) 2010  Alexander Kurtz <kurtz.alex@googlemail.com>
+# Version:	@(#)hwclock.sh  2.00  14-Dec-1998  miquels@cistron.nl
+#		2000-01-30 Henrique M. Holschuh <hmh@rcm.org.br>
+#               2012-02-16 Roger Leigh <rleigh@debian.org>
+# Author:	"Theodore Ts'o" <tytso@mit.edu>
+# Author:       Ryan Murray <rmurray@debian.org>
+# Author: Michael Biebl <biebl@debian.org>
+# Author: Debian Printing Team <debian-printing@lists.debian.org>
+# Copyright © 2003 Colin Walters <walters@debian.org>
+# Copyright © 2005 Sjoerd Simons <sjoerd@debian.org>
+# Edd Dumbill <ejad@debian.org>
+# LSB 3.0 compilance and enhancements by Filippo Giunchedi <filippo@debian.org>
+# Updated for bluez 4.7 by Mario Limonciello <mario_limonciello@dell.com>
+# Updated for bluez 5.5 by Nobuhiro Iwamatsu <iwamatsu@debian.org>
+#  Steve Beattie <steve.beattie@canonical.com>
+#  Kees Cook <kees@ubuntu.com>
+# written by Elrond <Elrond@Wunder-Nett.org>
+# <rob@mars.org>, edited by iwj and cs
+# Modified for openvpn by Alberto Gonzalez Iniesta <agi@inittab.org>
+# Modified for restarting / starting / stopping single tunnels by Richard Mueller <mueller@teamix.net>
+# Author: Laurent Bigonville <bigon@debian.org>
+;;          Agustin Martin     <agmartin@debian.org>
+Binary file (standard input) matches
+#    Authors: Dustin Kirkland <kirkland@canonical.com>
+#    Authors: Dustin Kirkland <kirkland@canonical.com>
+#             Steve Langasek <steve.langasek@canonical.com>
+#    Authors: Dustin Kirkland <kirkland@canonical.com>,
+#             Brian Murray <brian@canonical.com>
+#    Authors: Jonathan Davies <jonathan.davies@canonical.com>
+#             Bryan Quigley <bryan.quigley@canonical.com>
+#             Rene Engelhard <rene@debian.org>
+#    Author: Bryan Quigley <bryan.quigley@canonical.com>
+#            Rene Engelhard <rene@debian.org>
+# Author: Daniel Dressler <danieru.dressler@gmail.com>
+#    Authors: Bryan Quigley <bryan.quigley@canonical.com>
+#             Rene Engelhard <rene@debian.org>
+# Author: Jamie Strandboge <jamie@canonical.com>
+#    Copyright (C) 2016 intrigeri <intrigeri@boum.org>
+#    Authors: Bryan Quigley <bryan.quigley@canonical.com>
+#             Rene Engelhard <rene@debian.org>
+# Author: Martin Pitt <martin.pitt@ubuntu.com>
+# Author: Jamie Strandboge <jamie@canonical.com>
+#header = From: Your Name <username@site.domain>
+Binary file (standard input) matches
+Binary file (standard input) matches
+Binary file (standard input) matches
+Binary file (standard input) matches
+// 'mailx' must be installed. E.g. "user@example.com"
+        MetaKey "$(COMPONENT)/dep11/icons-64x64@2.tar";
+        Description "$(RELEASE)/$(COMPONENT) DEP-11 64x64@2 Icons";
+        MetaKey "$(COMPONENT)/dep11/icons-128x128@2.tar";
+        Description "$(RELEASE)/$(COMPONENT) DEP-11 128x128@2 Icons";
+# Originally created by Jim Knoble <jmknoble@mercury.interpath.net>
+# Modified for Debian by alvar Bray <alvar@meiko.co.uk>
+# Modified for PPP Server setup by Christoph Lameter <clameter@debian.org>
+# MUST CHANGE: replace myusername@realm with the PPP login name given to
+user "myusername@realm"
+# Author: Gunnar Hjalmarsson <gunnarhj@ubuntu.com>
+#   MACs hmac-md5,hmac-sha1,umac-64@openssh.com
+# Jon Chambers <jon@jon.demon.co.uk>, 2006-08-12
+# the SANE/Avision maintainer: Mike Kelly <mike@piratehaven.org>
+#   Copyright (C) 1998, 1999 Jean Pierre LeJacq <jplejacq@quoininc.com>
+#   Modified 2003 by Martin Pitt <martin@piware.de>
+# Author: Gunnar Hjalmarsson <gunnarhj@ubuntu.com>
+# aa_ER@saaho UTF-8
+# be_BY@latin UTF-8
+# br_FR@euro ISO-8859-15
+# ca_ES@euro ISO-8859-15
+# ca_ES@valencia UTF-8
+# de_AT@euro ISO-8859-15
+# de_BE@euro ISO-8859-15
+# de_DE@euro ISO-8859-15
+# de_LU@euro ISO-8859-15
+# el_GR@euro ISO-8859-7
+# en_IE@euro ISO-8859-15
+# es_ES@euro ISO-8859-15
+# eu_ES@euro ISO-8859-15
+# eu_FR@euro ISO-8859-15
+# fi_FI@euro ISO-8859-15
+# fr_BE@euro ISO-8859-15
+# fr_FR@euro ISO-8859-15
+# fr_LU@euro ISO-8859-15
+# ga_IE@euro ISO-8859-15
+# gez_ER@abegede UTF-8
+# gez_ET@abegede UTF-8
+# gl_ES@euro ISO-8859-15
+# it_IT@euro ISO-8859-15
+# ks_IN@devanagari UTF-8
+# nan_TW@latin UTF-8
+# nl_BE@euro ISO-8859-15
+# nl_NL@euro ISO-8859-15
+# pt_PT@euro ISO-8859-15
+# sd_IN@devanagari UTF-8
+# sr_RS@latin UTF-8
+# sv_FI@euro ISO-8859-15
+# tt_RU@iqtelif UTF-8
+# ug_CN@latin UTF-8
+# uz_UZ@cyrillic UTF-8
+# wa_BE@euro ISO-8859-15
+# Copyright: Copyright (c) 2008-2010, Kel Modderman <kel@otaku42.de>
+# <pkg-wpa-devel@lists.alioth.debian.org>
+# <pkg-wpa-devel@lists.alioth.debian.org>
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# Sébastien Hinderer <Sebastien.Hinderer@ens-lyon.org>
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# Maintained by John J. Boyer, director@chpi.org, www.chpi.org
+# This table is built and maintained by Leon Ungier <Leon.Ungier@ViewPlus.com>
+# with help and guidance from Mohammed R. Ramadan <mramadan@nattiq.com>
+# Converted from liblouis table by Samuel Thibault <samuel.thibault@ens-lyon.org>
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# Samuel Thibault <samuel.thibault@ens-lyon.org>
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# Maintained by John J. Boyer, director@chpi.org, www.chpi.org
+# This table is built and maintained by Leon Ungier <Leon.Ungier@ViewPlus.com>
+# with help and guidance from Mohammed R. Ramadan <mramadan@nattiq.com>
+# Converted from liblouis table by Samuel Thibault <samuel.thibault@ens-lyon.org>
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# Created by Leon Ungier <Leon.Ungier@ViewPlus.com>.
+# Edited by Eric <eric@integra-belgium.com>
+# Converted from liblouis table by Samuel Thibault <samuel.thibault@ens-lyon.org>
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# Dave Mielke <dave@mielke.cc>
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# Samuel Thibault <samuel.thibault@ens-lyon.org>
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# Dave Mielke <dave@mielke.cc>
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# Table generated by Sébastien Sablé <sable@users.sourceforge.net> for
+# Table adapted for BRLTTY by Samuel Thibault <samuel.thibault@ens-lyon.org>
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# Maintained by John J. Boyer, director@chpi.org, www.chpi.org
+# This table is built and maintained by Leon Ungier <Leon.Ungier@ViewPlus.com>
+# with help and guidance from Mohammed R. Ramadan <mramadan@nattiq.com>
+# Converted from liblouis table by Samuel Thibault <samuel.thibault@ens-lyon.org>
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# Created by Leon Ungier <Leon.Ungier@ViewPlus.com>.
+# Converted from liblouis table by Samuel Thibault <samuel.thibault@ens-lyon.org>
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# Created by Leon Ungier <Leon.Ungier@ViewPlus.com>.
+# Converted from liblouis table by Samuel Thibault <samuel.thibault@ens-lyon.org>
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# Copyright (C) 2017 Rimas Kudelis <rq@akl.lt>
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# Maintained by John J. Boyer, director@chpi.org, www.chpi.org
+# This table is built and maintained by Leon Ungier <Leon.Ungier@ViewPlus.com>
+# with help and guidance from Mohammed R. Ramadan <mramadan@nattiq.com>
+# Converted from liblouis table by Samuel Thibault <samuel.thibault@ens-lyon.org>
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# Samuel Thibault <samuel.thibault@ens-lyon.org>
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# Samuel Thibault <samuel.thibault@ens-lyon.org>
+# Birkir Gunnarsson, birkir@midstod.is
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# Maintained by John J. Boyer, director@chpi.org, www.chpi.org
+# This table is built and maintained by Leon Ungier <Leon.Ungier@ViewPlus.com>
+# with help and guidance from Mohammed R. Ramadan <mramadan@nattiq.com>
+# Converted from liblouis table by Samuel Thibault <samuel.thibault@ens-lyon.org>
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# Maintained by John J. Boyer, director@chpi.org, www.chpi.org
+# This table is built and maintained by Leon Ungier <Leon.Ungier@ViewPlus.com>
+# with help and guidance from Mohammed R. Ramadan <mramadan@nattiq.com>
+# Converted from liblouis table by Samuel Thibault <samuel.thibault@ens-lyon.org>
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# Samuel Thibault <samuel.thibault@ens-lyon.org>
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# Maintained by John J. Boyer, director@chpi.org, www.chpi.org
+# This table is built and maintained by Leon Ungier <Leon.Ungier@ViewPlus.com>
+# with help and guidance from Mohammed R. Ramadan <mramadan@nattiq.com>
+# Converted from liblouis table by Samuel Thibault <samuel.thibault@ens-lyon.org>
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# Samuel Thibault <samuel.thibault@ens-lyon.org>
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# Samuel Thibault <samuel.thibault@ens-lyon.org>
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# modeled from Russian Braille table by Victor Tsaran <vtsaran@gmail.com>
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# Maintained by John J. Boyer, director@chpi.org, www.chpi.org
+# This table is built and maintained by Leon Ungier <Leon.Ungier@ViewPlus.com>
+# with help and guidance from Mohammed R. Ramadan <mramadan@nattiq.com>
+# Converted from liblouis table by Samuel Thibault <samuel.thibault@ens-lyon.org>
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# Created & maintained by Leon Ungier <Leon.Ungier@ViewPlus.com>.
+# Converted from liblouis table by Samuel Thibault <samuel.thibault@ens-lyon.org>
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# Adi Kushnir <adikushnir@gmail.com>
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# Created and maintained by Mike Sivill #<mike.sivill@viewplus.com>
+# Converted from liblouis table by Samuel Thibault <samuel.thibault@ens-lyon.org>
+# Modified by Dave Mielke <dave@mielke.cc>
+# with advice from Jan Buchal <buchal@brailcom.org>
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# Tomas Mårdsjö <tomas.mardsjo@icap.nu>
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# Maintained by John J. Boyer, director@chpi.org, www.chpi.org
+# This table is built and maintained by Leon Ungier <Leon.Ungier@ViewPlus.com>
+# with help and guidance from Mohammed R. Ramadan <mramadan@nattiq.com>
+# Converted from liblouis table by Samuel Thibault <samuel.thibault@ens-lyon.org>
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# Samuel Thibault <samuel.thibault@ens-lyon.org>
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# Samuel Thibault <samuel.thibault@ens-lyon.org>
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# Samuel Thibault <samuel.thibault@ens-lyon.org>
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# Sébastien Hinderer <Sebastien.Hinderer@ens-lyon.org>
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# Table generated by Sébastien Sablé <sable@users.sourceforge.net> for
+# Table adapted for BRLTTY by Samuel Thibault <samuel.thibault@ens-lyon.org>
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# Samuel Thibault <samuel.thibault@ens-lyon.org>
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# Maintained by John J. Boyer, director@chpi.org, www.chpi.org
+# This table is built and maintained by Leon Ungier <Leon.Ungier@ViewPlus.com>
+# with help and guidance from Mohammed R. Ramadan <mramadan@nattiq.com>
+# Converted from liblouis table by Samuel Thibault <samuel.thibault@ens-lyon.org>
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# Samuel Thibault <samuel.thibault@ens-lyon.org>
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# Maintained by: Dave Mielke <dave@mielke.cc>
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# by Hans Schou <chlor@schou.dk> and Dave Mielke <dave@mielke.cc>
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# Samuel Thibault <samuel.thibault@ens-lyon.org>
+# Updated by Zsolt Torma <torma.zsolt@infoalap.hu>
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# Samuel Thibault <samuel.thibault@ens-lyon.org>
+# esperanto-muzeo@wanadoo.fr
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# Maintained by John J. Boyer, director@chpi.org, www.chpi.org
+# This table is built and maintained by Leon Ungier <Leon.Ungier@ViewPlus.com>
+# with help and guidance from Mohammed R. Ramadan <mramadan@nattiq.com>
+# Converted from liblouis table by Samuel Thibault <samuel.thibault@ens-lyon.org>
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+file, feel free to send an e-mail to me (yan@mistigri.org), because it's
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# Samuel Thibault <samuel.thibault@ens-lyon.org>
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# Samuel Thibault <samuel.thibault@ens-lyon.org>
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# Samuel Thibault <samuel.thibault@ens-lyon.org>
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# Created by Mario Lang <mlang@delysid.org>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# Created by John Boyer <director@chpi.org>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# Samuel Thibault <samuel.thibault@ens-lyon.org>
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# Samuel Thibault <samuel.thibault@ens-lyon.org>
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# Samuel Thibault <samuel.thibault@ens-lyon.org>
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# Samuel Thibault <samuel.thibault@ens-lyon.org>
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# Copyright (C) 2017 Rimas Kudelis <rq@akl.lt>
+# Copyright (C) 2017 Tadas Matusevičius <tadas.matus@gmail.com>
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# Samuel Thibault <samuel.thibault@ens-lyon.org>
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# BRLTTY Contraction Table - Chinese (Taiwan, uncontracted) by Coscell Kao <coscell@gmail.com> (2016-5)
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# Samuel Thibault <samuel.thibault@ens-lyon.org>
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# Samuel Thibault <samuel.thibault@ens-lyon.org>
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# Created by Mario Lang <mlang@delysid.org>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# Samuel Thibault <samuel.thibault@ens-lyon.org>
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+#	Nicolas Pitre <nico@fluxnic.net>
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# Samuel Thibault <samuel.thibault@ens-lyon.org>
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# Samuel Thibault <samuel.thibault@ens-lyon.org>
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# Par Nicolas Pitre <nico@fluxnic.net>
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# Samuel Thibault <samuel.thibault@ens-lyon.org>
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# Samuel Thibault <samuel.thibault@ens-lyon.org>
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# Created by Mario Lang <mlang@delysid.org>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# Samuel Thibault <samuel.thibault@ens-lyon.org>
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# Table generated by Bill Haneman <billh@gnome.org>
+# Adapted for BRLTTY by Samuel Thibault <samuel.thibault@ens-lyon.org>
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# Samuel Thibault <samuel.thibault@ens-lyon.org>
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+#By Michael Curran <mick@kulgan.net>
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# Created by Mario Lang <mlang@delysid.org>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# Samuel Thibault <samuel.thibault@ens-lyon.org>
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+    <string>ks@devanagari</string>
+    <string>sd@devanagari</string>
+  Copyright (C) 2005  Sharif FarsiWeb, Inc. <license@farsiweb.info>
+# Copyright (C) 2014 Luke Yelavich <themuso@ubuntu.com>
+# Copyright (C) 2018 Samuel Thibault <samuel.thibault@ens-lyon.org>
+# Copyright (C) 2018 Didier Spaier <didier@slint.fr>
+# Copyright (C) 2007 Lukas Loehrer <listaddr1@gmx.net>
+# Copyright (C) 2007 Gilles Casse <gcasse@oralux.org>
+# Copyright (C) 2011 Rui Batista <ruiandrebatista@gmail.com>
+# Copyright (C) 2011-2016 Luke Yelavich <themuso@themuso.com>
+# Copyright (C) 2014-2018 Samuel Thibault <samuel.thibault@ens-lyon.org>
+# Copyright (C) 2014 Luke Yelavich <themuso@ubuntu.com>
+# Copyright (C) 2018 Samuel Thibault <samuel.thibault@ens-lyon.org>
+# Copyright (C) 2018 Didier Spaier <didier@slint.fr>
+# Copyright (C) 2018 Florian Steinhardt <no.known.email@example.com>
+# Copyright (C) 2006 Olivier BERT <obert01@mistigri.org>
+# Copyright (C) 2018 Raphaël POITEVIN <rpoitevin@hypra.fr>
+# Copyright (C) 2007 Lukas Loehrer <listaddr1@gmx.net>
+# Copyright (C) 2007 Gilles Casse <gcasse@oralux.org>
+# Copyright (C) 2011 Rui Batista <ruiandrebatista@gmail.com>
+# Copyright (C) 2011 Luke Yelavich <themuso@themuso.com>
+# Copyright (C) 2006 Gary Cramblitt <garycramblitt@comcast.net>
+# Copyright (C) 2007 Lukas Loehrer <listaddr1@gmx.net>
+# Copyright (C) 2007-2013 Gilles Casse <gcasse@oralux.org>
+# Copyright (C) 2010 Christopher Brannon <cmbrannon79@gmail.com>
+# Copyright (C) 2016 Luke Yelavich <themuso@themuso.com>
+# <speechd@freebsoft.org>
+# Copyright (C) 2007 Gilles Casse <gcasse@oralux.org>
+# Copyright (C) 2017 Colomban Wendling <cwendling@hypra.fr>
+# Copyright (C) 2018 Samuel Thibault <samuel.thibault@ens-lyon.org>
+# Copyright (C) 2006 Gary Cramblitt <garycramblitt@comcast.net>
+# Copyright (C) 2009 Rui Batista <ruiandrebatista@gmail.com>
+# Copyright (C) 2010 Andrei Kholodnyi <Andrei.Kholodnyi@gmail.com>
+# Copyright (C) 2010 William Hubbs <w.d.hubbs@gmail.com>
+# Copyright (C) 2010 Trevor Saunders <trev.saunders@gmail.com>
+# Copyright (C) 2012 William Jon McCann <jmccann@redhat.com>
+# Copyright (C) 2014 Rob Whyte <fudge@thefudge.net>
+# Copyright (C) 2014-2016 Luke Yelavich <themuso@ubuntu.com>
+# Copyright (C) 2014 Hussain Jasim <hussainmkj@gmail.com>
+# Copyright (C) 2017 Colomban Wendling <cwendling@hypra.fr>
+# Copyright (C) 2018 Raphaël POITEVIN <rpoitevin@hypra.fr>
+# Copyright (C) 2018 Florian Steinhardt <no.known.email@example.com>
+# Copyright (C) 2018 Samuel Thibault <samuel.thibault@ens-lyon.org>
+# Copyright (C) 2012 Osamu Aoki <osamu@debian.org>
+# Copyright (C) 2012 Aron Xu <aron@debian.org>
+           "<debian-x@lists.debian.org>."
+Binary file (standard input) matches
+# If this is an xterm set the title to user@host:dir
+# Written by Austin Donnelly <and1000@debian.org>
+Name[ca@valencia]=Gestor d'actualitzacions
+Comment[ca@valencia]=Comprova si hi ha actualizacions disponibles automàticament.
+Name[sr@latin]=PulseAudio zvučni sistem
+Comment[sr@latin]=Pokreni PulseAudio zvučni sistem
+# names, or ALL (always matches). A pattern of the form user@host is
+# sender=e2scrub@host.domain.name
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# Copyright (C) 2014 Henrique de Moraes Holschuh <hmh@debian.org>
+# Authors: Jason Tang <jtang@tresys.com>
+# Copyright (C) 2010  Alexander Kurtz <kurtz.alex@googlemail.com>
+# Version:	@(#)hwclock.sh  2.00  14-Dec-1998  miquels@cistron.nl
+#		2000-01-30 Henrique M. Holschuh <hmh@rcm.org.br>
+#               2012-02-16 Roger Leigh <rleigh@debian.org>
+# Author:	"Theodore Ts'o" <tytso@mit.edu>
+# Author:       Ryan Murray <rmurray@debian.org>
+# Author: Michael Biebl <biebl@debian.org>
+# Author: Debian Printing Team <debian-printing@lists.debian.org>
+# Copyright © 2003 Colin Walters <walters@debian.org>
+# Copyright © 2005 Sjoerd Simons <sjoerd@debian.org>
+# Edd Dumbill <ejad@debian.org>
+# LSB 3.0 compilance and enhancements by Filippo Giunchedi <filippo@debian.org>
+# Updated for bluez 4.7 by Mario Limonciello <mario_limonciello@dell.com>
+# Updated for bluez 5.5 by Nobuhiro Iwamatsu <iwamatsu@debian.org>
+#  Steve Beattie <steve.beattie@canonical.com>
+#  Kees Cook <kees@ubuntu.com>
+# <rob@mars.org>, edited by iwj and cs
+# Modified for openvpn by Alberto Gonzalez Iniesta <agi@inittab.org>
+# Modified for restarting / starting / stopping single tunnels by Richard Mueller <mueller@teamix.net>
+# Author: Laurent Bigonville <bigon@debian.org>
+;;          Agustin Martin     <agmartin@debian.org>
+Binary file (standard input) matches
+#    Authors: Dustin Kirkland <kirkland@canonical.com>
+#    Authors: Dustin Kirkland <kirkland@canonical.com>
+#             Steve Langasek <steve.langasek@canonical.com>
+#    Authors: Dustin Kirkland <kirkland@canonical.com>,
+#             Brian Murray <brian@canonical.com>
+#    Authors: Jonathan Davies <jonathan.davies@canonical.com>
+#             Bryan Quigley <bryan.quigley@canonical.com>
+#             Rene Engelhard <rene@debian.org>
+#    Author: Bryan Quigley <bryan.quigley@canonical.com>
+#            Rene Engelhard <rene@debian.org>
+# Author: Daniel Dressler <danieru.dressler@gmail.com>
+#    Authors: Bryan Quigley <bryan.quigley@canonical.com>
+#             Rene Engelhard <rene@debian.org>
+# Author: Jamie Strandboge <jamie@canonical.com>
+#    Copyright (C) 2016 intrigeri <intrigeri@boum.org>
+#    Authors: Bryan Quigley <bryan.quigley@canonical.com>
+#             Rene Engelhard <rene@debian.org>
+# Author: Martin Pitt <martin.pitt@ubuntu.com>
+# Author: Jamie Strandboge <jamie@canonical.com>
+#header = From: Your Name <username@site.domain>
+Binary file (standard input) matches
+Binary file (standard input) matches
+Binary file (standard input) matches
+Binary file (standard input) matches
+// 'mailx' must be installed. E.g. "user@example.com"
+        MetaKey "$(COMPONENT)/dep11/icons-64x64@2.tar";
+        MetaKey "$(COMPONENT)/dep11/icons-128x128@2.tar";
+# Originally created by Jim Knoble <jmknoble@mercury.interpath.net>
+# Modified for Debian by alvar Bray <alvar@meiko.co.uk>
+# Modified for PPP Server setup by Christoph Lameter <clameter@debian.org>
+# Author: Gunnar Hjalmarsson <gunnarhj@ubuntu.com>
+#   MACs hmac-md5,hmac-sha1,umac-64@openssh.com
+# Jon Chambers <jon@jon.demon.co.uk>, 2006-08-12
+# the SANE/Avision maintainer: Mike Kelly <mike@piratehaven.org>
+#   Copyright (C) 1998, 1999 Jean Pierre LeJacq <jplejacq@quoininc.com>
+#   Modified 2003 by Martin Pitt <martin@piware.de>
+# Author: Gunnar Hjalmarsson <gunnarhj@ubuntu.com>
+# Copyright: Copyright (c) 2008-2010, Kel Modderman <kel@otaku42.de>
+# <pkg-wpa-devel@lists.alioth.debian.org>
+# <pkg-wpa-devel@lists.alioth.debian.org>
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# Maintained by John J. Boyer, director@chpi.org, www.chpi.org
+# This table is built and maintained by Leon Ungier <Leon.Ungier@ViewPlus.com>
+# with help and guidance from Mohammed R. Ramadan <mramadan@nattiq.com>
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# Maintained by John J. Boyer, director@chpi.org, www.chpi.org
+# This table is built and maintained by Leon Ungier <Leon.Ungier@ViewPlus.com>
+# with help and guidance from Mohammed R. Ramadan <mramadan@nattiq.com>
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# Created by Leon Ungier <Leon.Ungier@ViewPlus.com>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# Dave Mielke <dave@mielke.cc>
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# Dave Mielke <dave@mielke.cc>
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# Table generated by Sébastien Sablé <sable@users.sourceforge.net> for
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# Maintained by John J. Boyer, director@chpi.org, www.chpi.org
+# This table is built and maintained by Leon Ungier <Leon.Ungier@ViewPlus.com>
+# with help and guidance from Mohammed R. Ramadan <mramadan@nattiq.com>
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# Created by Leon Ungier <Leon.Ungier@ViewPlus.com>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# Created by Leon Ungier <Leon.Ungier@ViewPlus.com>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# Copyright (C) 2017 Rimas Kudelis <rq@akl.lt>
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# Maintained by John J. Boyer, director@chpi.org, www.chpi.org
+# This table is built and maintained by Leon Ungier <Leon.Ungier@ViewPlus.com>
+# with help and guidance from Mohammed R. Ramadan <mramadan@nattiq.com>
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# Birkir Gunnarsson, birkir@midstod.is
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# Maintained by John J. Boyer, director@chpi.org, www.chpi.org
+# This table is built and maintained by Leon Ungier <Leon.Ungier@ViewPlus.com>
+# with help and guidance from Mohammed R. Ramadan <mramadan@nattiq.com>
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# Maintained by John J. Boyer, director@chpi.org, www.chpi.org
+# This table is built and maintained by Leon Ungier <Leon.Ungier@ViewPlus.com>
+# with help and guidance from Mohammed R. Ramadan <mramadan@nattiq.com>
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# Maintained by John J. Boyer, director@chpi.org, www.chpi.org
+# This table is built and maintained by Leon Ungier <Leon.Ungier@ViewPlus.com>
+# with help and guidance from Mohammed R. Ramadan <mramadan@nattiq.com>
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# modeled from Russian Braille table by Victor Tsaran <vtsaran@gmail.com>
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# Maintained by John J. Boyer, director@chpi.org, www.chpi.org
+# This table is built and maintained by Leon Ungier <Leon.Ungier@ViewPlus.com>
+# with help and guidance from Mohammed R. Ramadan <mramadan@nattiq.com>
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# Created & maintained by Leon Ungier <Leon.Ungier@ViewPlus.com>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# Adi Kushnir <adikushnir@gmail.com>
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# Created and maintained by Mike Sivill #<mike.sivill@viewplus.com>
+# Modified by Dave Mielke <dave@mielke.cc>
+# with advice from Jan Buchal <buchal@brailcom.org>
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# Tomas Mårdsjö <tomas.mardsjo@icap.nu>
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# Maintained by John J. Boyer, director@chpi.org, www.chpi.org
+# This table is built and maintained by Leon Ungier <Leon.Ungier@ViewPlus.com>
+# with help and guidance from Mohammed R. Ramadan <mramadan@nattiq.com>
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# Table generated by Sébastien Sablé <sable@users.sourceforge.net> for
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# Maintained by John J. Boyer, director@chpi.org, www.chpi.org
+# This table is built and maintained by Leon Ungier <Leon.Ungier@ViewPlus.com>
+# with help and guidance from Mohammed R. Ramadan <mramadan@nattiq.com>
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# Maintained by: Dave Mielke <dave@mielke.cc>
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# by Hans Schou <chlor@schou.dk> and Dave Mielke <dave@mielke.cc>
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# Updated by Zsolt Torma <torma.zsolt@infoalap.hu>
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# esperanto-muzeo@wanadoo.fr
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# Maintained by John J. Boyer, director@chpi.org, www.chpi.org
+# This table is built and maintained by Leon Ungier <Leon.Ungier@ViewPlus.com>
+# with help and guidance from Mohammed R. Ramadan <mramadan@nattiq.com>
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+file, feel free to send an e-mail to me (yan@mistigri.org), because it's
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# Created by Mario Lang <mlang@delysid.org>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# Created by John Boyer <director@chpi.org>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# Copyright (C) 2017 Rimas Kudelis <rq@akl.lt>
+# Copyright (C) 2017 Tadas Matusevičius <tadas.matus@gmail.com>
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# BRLTTY Contraction Table - Chinese (Taiwan, uncontracted) by Coscell Kao <coscell@gmail.com> (2016-5)
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# Created by Mario Lang <mlang@delysid.org>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+#	Nicolas Pitre <nico@fluxnic.net>
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# Par Nicolas Pitre <nico@fluxnic.net>
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# Created by Mario Lang <mlang@delysid.org>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# Table generated by Bill Haneman <billh@gnome.org>
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+#By Michael Curran <mick@kulgan.net>
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# Created by Mario Lang <mlang@delysid.org>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+  Copyright (C) 2005  Sharif FarsiWeb, Inc. <license@farsiweb.info>
+# Copyright (C) 2014 Luke Yelavich <themuso@ubuntu.com>
+# Copyright (C) 2018 Didier Spaier <didier@slint.fr>
+# Copyright (C) 2007 Lukas Loehrer <listaddr1@gmx.net>
+# Copyright (C) 2007 Gilles Casse <gcasse@oralux.org>
+# Copyright (C) 2011 Rui Batista <ruiandrebatista@gmail.com>
+# Copyright (C) 2011-2016 Luke Yelavich <themuso@themuso.com>
+# Copyright (C) 2014 Luke Yelavich <themuso@ubuntu.com>
+# Copyright (C) 2018 Didier Spaier <didier@slint.fr>
+# Copyright (C) 2018 Florian Steinhardt <no.known.email@example.com>
+# Copyright (C) 2006 Olivier BERT <obert01@mistigri.org>
+# Copyright (C) 2018 Raphaël POITEVIN <rpoitevin@hypra.fr>
+# Copyright (C) 2007 Lukas Loehrer <listaddr1@gmx.net>
+# Copyright (C) 2007 Gilles Casse <gcasse@oralux.org>
+# Copyright (C) 2011 Rui Batista <ruiandrebatista@gmail.com>
+# Copyright (C) 2011 Luke Yelavich <themuso@themuso.com>
+# Copyright (C) 2006 Gary Cramblitt <garycramblitt@comcast.net>
+# Copyright (C) 2007 Lukas Loehrer <listaddr1@gmx.net>
+# Copyright (C) 2007-2013 Gilles Casse <gcasse@oralux.org>
+# Copyright (C) 2010 Christopher Brannon <cmbrannon79@gmail.com>
+# Copyright (C) 2016 Luke Yelavich <themuso@themuso.com>
+# <speechd@freebsoft.org>
+# Copyright (C) 2007 Gilles Casse <gcasse@oralux.org>
+# Copyright (C) 2017 Colomban Wendling <cwendling@hypra.fr>
+# Copyright (C) 2006 Gary Cramblitt <garycramblitt@comcast.net>
+# Copyright (C) 2009 Rui Batista <ruiandrebatista@gmail.com>
+# Copyright (C) 2010 Andrei Kholodnyi <Andrei.Kholodnyi@gmail.com>
+# Copyright (C) 2010 William Hubbs <w.d.hubbs@gmail.com>
+# Copyright (C) 2010 Trevor Saunders <trev.saunders@gmail.com>
+# Copyright (C) 2012 William Jon McCann <jmccann@redhat.com>
+# Copyright (C) 2014 Rob Whyte <fudge@thefudge.net>
+# Copyright (C) 2014-2016 Luke Yelavich <themuso@ubuntu.com>
+# Copyright (C) 2014 Hussain Jasim <hussainmkj@gmail.com>
+# Copyright (C) 2017 Colomban Wendling <cwendling@hypra.fr>
+# Copyright (C) 2018 Raphaël POITEVIN <rpoitevin@hypra.fr>
+# Copyright (C) 2018 Florian Steinhardt <no.known.email@example.com>
+# Copyright (C) 2012 Osamu Aoki <osamu@debian.org>
+# Copyright (C) 2012 Aron Xu <aron@debian.org>
+           "<debian-x@lists.debian.org>."
+# Written by Austin Donnelly <and1000@debian.org>
+# sender=e2scrub@host.domain.name
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# Copyright (C) 2014 Henrique de Moraes Holschuh <hmh@debian.org>
+# Authors: Jason Tang <jtang@tresys.com>
+# Copyright (C) 2010  Alexander Kurtz <kurtz.alex@googlemail.com>
+# Version:	@(#)hwclock.sh  2.00  14-Dec-1998  miquels@cistron.nl
+#		2000-01-30 Henrique M. Holschuh <hmh@rcm.org.br>
+#               2012-02-16 Roger Leigh <rleigh@debian.org>
+# Author:	"Theodore Ts'o" <tytso@mit.edu>
+# Author:       Ryan Murray <rmurray@debian.org>
+# Author: Michael Biebl <biebl@debian.org>
+# Author: Debian Printing Team <debian-printing@lists.debian.org>
+# Copyright © 2003 Colin Walters <walters@debian.org>
+# Copyright © 2005 Sjoerd Simons <sjoerd@debian.org>
+# Edd Dumbill <ejad@debian.org>
+# LSB 3.0 compilance and enhancements by Filippo Giunchedi <filippo@debian.org>
+# Updated for bluez 4.7 by Mario Limonciello <mario_limonciello@dell.com>
+# Updated for bluez 5.5 by Nobuhiro Iwamatsu <iwamatsu@debian.org>
+#  Steve Beattie <steve.beattie@canonical.com>
+#  Kees Cook <kees@ubuntu.com>
+# <rob@mars.org>, edited by iwj and cs
+# Modified for openvpn by Alberto Gonzalez Iniesta <agi@inittab.org>
+# Modified for restarting / starting / stopping single tunnels by Richard Mueller <mueller@teamix.net>
+# Author: Laurent Bigonville <bigon@debian.org>
+;;          Agustin Martin     <agmartin@debian.org>
+Binary file (standard input) matches
+#    Authors: Dustin Kirkland <kirkland@canonical.com>
+#    Authors: Dustin Kirkland <kirkland@canonical.com>
+#             Steve Langasek <steve.langasek@canonical.com>
+#    Authors: Dustin Kirkland <kirkland@canonical.com>,
+#             Brian Murray <brian@canonical.com>
+#    Authors: Jonathan Davies <jonathan.davies@canonical.com>
+#             Bryan Quigley <bryan.quigley@canonical.com>
+#             Rene Engelhard <rene@debian.org>
+#    Author: Bryan Quigley <bryan.quigley@canonical.com>
+#            Rene Engelhard <rene@debian.org>
+# Author: Daniel Dressler <danieru.dressler@gmail.com>
+#    Authors: Bryan Quigley <bryan.quigley@canonical.com>
+#             Rene Engelhard <rene@debian.org>
+# Author: Jamie Strandboge <jamie@canonical.com>
+#    Copyright (C) 2016 intrigeri <intrigeri@boum.org>
+#    Authors: Bryan Quigley <bryan.quigley@canonical.com>
+#             Rene Engelhard <rene@debian.org>
+# Author: Martin Pitt <martin.pitt@ubuntu.com>
+# Author: Jamie Strandboge <jamie@canonical.com>
+#header = From: Your Name <username@site.domain>
+Binary file (standard input) matches
+Binary file (standard input) matches
+Binary file (standard input) matches
+Binary file (standard input) matches
+// 'mailx' must be installed. E.g. "user@example.com"
+        MetaKey "$(COMPONENT)/dep11/icons-64x64@2.tar";
+        MetaKey "$(COMPONENT)/dep11/icons-128x128@2.tar";
+# Originally created by Jim Knoble <jmknoble@mercury.interpath.net>
+# Modified for Debian by alvar Bray <alvar@meiko.co.uk>
+# Modified for PPP Server setup by Christoph Lameter <clameter@debian.org>
+# Author: Gunnar Hjalmarsson <gunnarhj@ubuntu.com>
+#   MACs hmac-md5,hmac-sha1,umac-64@openssh.com
+# Jon Chambers <jon@jon.demon.co.uk>, 2006-08-12
+# the SANE/Avision maintainer: Mike Kelly <mike@piratehaven.org>
+#   Copyright (C) 1998, 1999 Jean Pierre LeJacq <jplejacq@quoininc.com>
+#   Modified 2003 by Martin Pitt <martin@piware.de>
+# Author: Gunnar Hjalmarsson <gunnarhj@ubuntu.com>
+# Copyright: Copyright (c) 2008-2010, Kel Modderman <kel@otaku42.de>
+# <pkg-wpa-devel@lists.alioth.debian.org>
+# <pkg-wpa-devel@lists.alioth.debian.org>
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# Maintained by John J. Boyer, director@chpi.org, www.chpi.org
+# This table is built and maintained by Leon Ungier <Leon.Ungier@ViewPlus.com>
+# with help and guidance from Mohammed R. Ramadan <mramadan@nattiq.com>
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# Maintained by John J. Boyer, director@chpi.org, www.chpi.org
+# This table is built and maintained by Leon Ungier <Leon.Ungier@ViewPlus.com>
+# with help and guidance from Mohammed R. Ramadan <mramadan@nattiq.com>
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# Created by Leon Ungier <Leon.Ungier@ViewPlus.com>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# Dave Mielke <dave@mielke.cc>
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# Dave Mielke <dave@mielke.cc>
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# Table generated by Sébastien Sablé <sable@users.sourceforge.net> for
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# Maintained by John J. Boyer, director@chpi.org, www.chpi.org
+# This table is built and maintained by Leon Ungier <Leon.Ungier@ViewPlus.com>
+# with help and guidance from Mohammed R. Ramadan <mramadan@nattiq.com>
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# Created by Leon Ungier <Leon.Ungier@ViewPlus.com>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# Created by Leon Ungier <Leon.Ungier@ViewPlus.com>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# Copyright (C) 2017 Rimas Kudelis <rq@akl.lt>
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# Maintained by John J. Boyer, director@chpi.org, www.chpi.org
+# This table is built and maintained by Leon Ungier <Leon.Ungier@ViewPlus.com>
+# with help and guidance from Mohammed R. Ramadan <mramadan@nattiq.com>
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# Birkir Gunnarsson, birkir@midstod.is
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# Maintained by John J. Boyer, director@chpi.org, www.chpi.org
+# This table is built and maintained by Leon Ungier <Leon.Ungier@ViewPlus.com>
+# with help and guidance from Mohammed R. Ramadan <mramadan@nattiq.com>
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# Maintained by John J. Boyer, director@chpi.org, www.chpi.org
+# This table is built and maintained by Leon Ungier <Leon.Ungier@ViewPlus.com>
+# with help and guidance from Mohammed R. Ramadan <mramadan@nattiq.com>
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# Maintained by John J. Boyer, director@chpi.org, www.chpi.org
+# This table is built and maintained by Leon Ungier <Leon.Ungier@ViewPlus.com>
+# with help and guidance from Mohammed R. Ramadan <mramadan@nattiq.com>
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# modeled from Russian Braille table by Victor Tsaran <vtsaran@gmail.com>
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# Maintained by John J. Boyer, director@chpi.org, www.chpi.org
+# This table is built and maintained by Leon Ungier <Leon.Ungier@ViewPlus.com>
+# with help and guidance from Mohammed R. Ramadan <mramadan@nattiq.com>
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# Created & maintained by Leon Ungier <Leon.Ungier@ViewPlus.com>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# Adi Kushnir <adikushnir@gmail.com>
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# Created and maintained by Mike Sivill #<mike.sivill@viewplus.com>
+# Modified by Dave Mielke <dave@mielke.cc>
+# with advice from Jan Buchal <buchal@brailcom.org>
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# Tomas Mårdsjö <tomas.mardsjo@icap.nu>
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# Maintained by John J. Boyer, director@chpi.org, www.chpi.org
+# This table is built and maintained by Leon Ungier <Leon.Ungier@ViewPlus.com>
+# with help and guidance from Mohammed R. Ramadan <mramadan@nattiq.com>
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# Table generated by Sébastien Sablé <sable@users.sourceforge.net> for
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# Maintained by John J. Boyer, director@chpi.org, www.chpi.org
+# This table is built and maintained by Leon Ungier <Leon.Ungier@ViewPlus.com>
+# with help and guidance from Mohammed R. Ramadan <mramadan@nattiq.com>
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# Maintained by: Dave Mielke <dave@mielke.cc>
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# by Hans Schou <chlor@schou.dk> and Dave Mielke <dave@mielke.cc>
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# Updated by Zsolt Torma <torma.zsolt@infoalap.hu>
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# esperanto-muzeo@wanadoo.fr
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# Maintained by John J. Boyer, director@chpi.org, www.chpi.org
+# This table is built and maintained by Leon Ungier <Leon.Ungier@ViewPlus.com>
+# with help and guidance from Mohammed R. Ramadan <mramadan@nattiq.com>
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+file, feel free to send an e-mail to me (yan@mistigri.org), because it's
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# Created by Mario Lang <mlang@delysid.org>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# Created by John Boyer <director@chpi.org>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# Copyright (C) 2017 Rimas Kudelis <rq@akl.lt>
+# Copyright (C) 2017 Tadas Matusevičius <tadas.matus@gmail.com>
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# BRLTTY Contraction Table - Chinese (Taiwan, uncontracted) by Coscell Kao <coscell@gmail.com> (2016-5)
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# Created by Mario Lang <mlang@delysid.org>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+#	Nicolas Pitre <nico@fluxnic.net>
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# Par Nicolas Pitre <nico@fluxnic.net>
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# Created by Mario Lang <mlang@delysid.org>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# Table generated by Bill Haneman <billh@gnome.org>
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+#By Michael Curran <mick@kulgan.net>
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# Created by Mario Lang <mlang@delysid.org>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+  Copyright (C) 2005  Sharif FarsiWeb, Inc. <license@farsiweb.info>
+# Copyright (C) 2014 Luke Yelavich <themuso@ubuntu.com>
+# Copyright (C) 2018 Didier Spaier <didier@slint.fr>
+# Copyright (C) 2007 Lukas Loehrer <listaddr1@gmx.net>
+# Copyright (C) 2007 Gilles Casse <gcasse@oralux.org>
+# Copyright (C) 2011 Rui Batista <ruiandrebatista@gmail.com>
+# Copyright (C) 2011-2016 Luke Yelavich <themuso@themuso.com>
+# Copyright (C) 2014 Luke Yelavich <themuso@ubuntu.com>
+# Copyright (C) 2018 Didier Spaier <didier@slint.fr>
+# Copyright (C) 2018 Florian Steinhardt <no.known.email@example.com>
+# Copyright (C) 2006 Olivier BERT <obert01@mistigri.org>
+# Copyright (C) 2018 Raphaël POITEVIN <rpoitevin@hypra.fr>
+# Copyright (C) 2007 Lukas Loehrer <listaddr1@gmx.net>
+# Copyright (C) 2007 Gilles Casse <gcasse@oralux.org>
+# Copyright (C) 2011 Rui Batista <ruiandrebatista@gmail.com>
+# Copyright (C) 2011 Luke Yelavich <themuso@themuso.com>
+# Copyright (C) 2006 Gary Cramblitt <garycramblitt@comcast.net>
+# Copyright (C) 2007 Lukas Loehrer <listaddr1@gmx.net>
+# Copyright (C) 2007-2013 Gilles Casse <gcasse@oralux.org>
+# Copyright (C) 2010 Christopher Brannon <cmbrannon79@gmail.com>
+# Copyright (C) 2016 Luke Yelavich <themuso@themuso.com>
+# <speechd@freebsoft.org>
+# Copyright (C) 2007 Gilles Casse <gcasse@oralux.org>
+# Copyright (C) 2017 Colomban Wendling <cwendling@hypra.fr>
+# Copyright (C) 2006 Gary Cramblitt <garycramblitt@comcast.net>
+# Copyright (C) 2009 Rui Batista <ruiandrebatista@gmail.com>
+# Copyright (C) 2010 Andrei Kholodnyi <Andrei.Kholodnyi@gmail.com>
+# Copyright (C) 2010 William Hubbs <w.d.hubbs@gmail.com>
+# Copyright (C) 2010 Trevor Saunders <trev.saunders@gmail.com>
+# Copyright (C) 2012 William Jon McCann <jmccann@redhat.com>
+# Copyright (C) 2014 Rob Whyte <fudge@thefudge.net>
+# Copyright (C) 2014-2016 Luke Yelavich <themuso@ubuntu.com>
+# Copyright (C) 2014 Hussain Jasim <hussainmkj@gmail.com>
+# Copyright (C) 2017 Colomban Wendling <cwendling@hypra.fr>
+# Copyright (C) 2018 Raphaël POITEVIN <rpoitevin@hypra.fr>
+# Copyright (C) 2018 Florian Steinhardt <no.known.email@example.com>
+# Copyright (C) 2012 Osamu Aoki <osamu@debian.org>
+# Copyright (C) 2012 Aron Xu <aron@debian.org>
+           "<debian-x@lists.debian.org>."
+# Written by Austin Donnelly <and1000@debian.org>
+# sender=e2scrub@host.domain.name
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# Copyright (C) 2014 Henrique de Moraes Holschuh <hmh@debian.org>
+# Authors: Jason Tang <jtang@tresys.com>
+# Copyright (C) 2010  Alexander Kurtz <kurtz.alex@googlemail.com>
+# Version:	@(#)hwclock.sh  2.00  14-Dec-1998  miquels@cistron.nl
+#		2000-01-30 Henrique M. Holschuh <hmh@rcm.org.br>
+#               2012-02-16 Roger Leigh <rleigh@debian.org>
+# Author:	"Theodore Ts'o" <tytso@mit.edu>
+# Author:       Ryan Murray <rmurray@debian.org>
+# Author: Michael Biebl <biebl@debian.org>
+# Author: Debian Printing Team <debian-printing@lists.debian.org>
+# Copyright © 2003 Colin Walters <walters@debian.org>
+# Copyright © 2005 Sjoerd Simons <sjoerd@debian.org>
+# Edd Dumbill <ejad@debian.org>
+# LSB 3.0 compilance and enhancements by Filippo Giunchedi <filippo@debian.org>
+# Updated for bluez 4.7 by Mario Limonciello <mario_limonciello@dell.com>
+# Updated for bluez 5.5 by Nobuhiro Iwamatsu <iwamatsu@debian.org>
+#  Steve Beattie <steve.beattie@canonical.com>
+#  Kees Cook <kees@ubuntu.com>
+# <rob@mars.org>, edited by iwj and cs
+# Modified for openvpn by Alberto Gonzalez Iniesta <agi@inittab.org>
+# Modified for restarting / starting / stopping single tunnels by Richard Mueller <mueller@teamix.net>
+# Author: Laurent Bigonville <bigon@debian.org>
+;;          Agustin Martin     <agmartin@debian.org>
+Binary file (standard input) matches
+#    Authors: Dustin Kirkland <kirkland@canonical.com>
+#    Authors: Dustin Kirkland <kirkland@canonical.com>
+#             Steve Langasek <steve.langasek@canonical.com>
+#    Authors: Dustin Kirkland <kirkland@canonical.com>,
+#             Brian Murray <brian@canonical.com>
+#    Authors: Jonathan Davies <jonathan.davies@canonical.com>
+#             Bryan Quigley <bryan.quigley@canonical.com>
+#             Rene Engelhard <rene@debian.org>
+#    Author: Bryan Quigley <bryan.quigley@canonical.com>
+#            Rene Engelhard <rene@debian.org>
+# Author: Daniel Dressler <danieru.dressler@gmail.com>
+#    Authors: Bryan Quigley <bryan.quigley@canonical.com>
+#             Rene Engelhard <rene@debian.org>
+# Author: Jamie Strandboge <jamie@canonical.com>
+#    Copyright (C) 2016 intrigeri <intrigeri@boum.org>
+#    Authors: Bryan Quigley <bryan.quigley@canonical.com>
+#             Rene Engelhard <rene@debian.org>
+# Author: Martin Pitt <martin.pitt@ubuntu.com>
+# Author: Jamie Strandboge <jamie@canonical.com>
+#header = From: Your Name <username@site.domain>
+Binary file (standard input) matches
+Binary file (standard input) matches
+Binary file (standard input) matches
+Binary file (standard input) matches
+// 'mailx' must be installed. E.g. "user@example.com"
+        MetaKey "$(COMPONENT)/dep11/icons-64x64@2.tar";
+        MetaKey "$(COMPONENT)/dep11/icons-128x128@2.tar";
+# Originally created by Jim Knoble <jmknoble@mercury.interpath.net>
+# Modified for Debian by alvar Bray <alvar@meiko.co.uk>
+# Modified for PPP Server setup by Christoph Lameter <clameter@debian.org>
+# Author: Gunnar Hjalmarsson <gunnarhj@ubuntu.com>
+#   MACs hmac-md5,hmac-sha1,umac-64@openssh.com
+# Jon Chambers <jon@jon.demon.co.uk>, 2006-08-12
+# the SANE/Avision maintainer: Mike Kelly <mike@piratehaven.org>
+#   Copyright (C) 1998, 1999 Jean Pierre LeJacq <jplejacq@quoininc.com>
+#   Modified 2003 by Martin Pitt <martin@piware.de>
+# Author: Gunnar Hjalmarsson <gunnarhj@ubuntu.com>
+# Copyright: Copyright (c) 2008-2010, Kel Modderman <kel@otaku42.de>
+# <pkg-wpa-devel@lists.alioth.debian.org>
+# <pkg-wpa-devel@lists.alioth.debian.org>
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# Maintained by John J. Boyer, director@chpi.org, www.chpi.org
+# This table is built and maintained by Leon Ungier <Leon.Ungier@ViewPlus.com>
+# with help and guidance from Mohammed R. Ramadan <mramadan@nattiq.com>
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# Maintained by John J. Boyer, director@chpi.org, www.chpi.org
+# This table is built and maintained by Leon Ungier <Leon.Ungier@ViewPlus.com>
+# with help and guidance from Mohammed R. Ramadan <mramadan@nattiq.com>
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# Created by Leon Ungier <Leon.Ungier@ViewPlus.com>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# Dave Mielke <dave@mielke.cc>
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# Dave Mielke <dave@mielke.cc>
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# Table generated by Sébastien Sablé <sable@users.sourceforge.net> for
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# Maintained by John J. Boyer, director@chpi.org, www.chpi.org
+# This table is built and maintained by Leon Ungier <Leon.Ungier@ViewPlus.com>
+# with help and guidance from Mohammed R. Ramadan <mramadan@nattiq.com>
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# Created by Leon Ungier <Leon.Ungier@ViewPlus.com>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# Created by Leon Ungier <Leon.Ungier@ViewPlus.com>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# Copyright (C) 2017 Rimas Kudelis <rq@akl.lt>
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# Maintained by John J. Boyer, director@chpi.org, www.chpi.org
+# This table is built and maintained by Leon Ungier <Leon.Ungier@ViewPlus.com>
+# with help and guidance from Mohammed R. Ramadan <mramadan@nattiq.com>
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# Birkir Gunnarsson, birkir@midstod.is
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# Maintained by John J. Boyer, director@chpi.org, www.chpi.org
+# This table is built and maintained by Leon Ungier <Leon.Ungier@ViewPlus.com>
+# with help and guidance from Mohammed R. Ramadan <mramadan@nattiq.com>
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# Maintained by John J. Boyer, director@chpi.org, www.chpi.org
+# This table is built and maintained by Leon Ungier <Leon.Ungier@ViewPlus.com>
+# with help and guidance from Mohammed R. Ramadan <mramadan@nattiq.com>
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# Maintained by John J. Boyer, director@chpi.org, www.chpi.org
+# This table is built and maintained by Leon Ungier <Leon.Ungier@ViewPlus.com>
+# with help and guidance from Mohammed R. Ramadan <mramadan@nattiq.com>
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# modeled from Russian Braille table by Victor Tsaran <vtsaran@gmail.com>
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# Maintained by John J. Boyer, director@chpi.org, www.chpi.org
+# This table is built and maintained by Leon Ungier <Leon.Ungier@ViewPlus.com>
+# with help and guidance from Mohammed R. Ramadan <mramadan@nattiq.com>
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# Created & maintained by Leon Ungier <Leon.Ungier@ViewPlus.com>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# Adi Kushnir <adikushnir@gmail.com>
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# Created and maintained by Mike Sivill #<mike.sivill@viewplus.com>
+# Modified by Dave Mielke <dave@mielke.cc>
+# with advice from Jan Buchal <buchal@brailcom.org>
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# Tomas Mårdsjö <tomas.mardsjo@icap.nu>
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# Maintained by John J. Boyer, director@chpi.org, www.chpi.org
+# This table is built and maintained by Leon Ungier <Leon.Ungier@ViewPlus.com>
+# with help and guidance from Mohammed R. Ramadan <mramadan@nattiq.com>
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# Table generated by Sébastien Sablé <sable@users.sourceforge.net> for
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# Maintained by John J. Boyer, director@chpi.org, www.chpi.org
+# This table is built and maintained by Leon Ungier <Leon.Ungier@ViewPlus.com>
+# with help and guidance from Mohammed R. Ramadan <mramadan@nattiq.com>
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# Maintained by: Dave Mielke <dave@mielke.cc>
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# by Hans Schou <chlor@schou.dk> and Dave Mielke <dave@mielke.cc>
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# Updated by Zsolt Torma <torma.zsolt@infoalap.hu>
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# esperanto-muzeo@wanadoo.fr
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# Maintained by John J. Boyer, director@chpi.org, www.chpi.org
+# This table is built and maintained by Leon Ungier <Leon.Ungier@ViewPlus.com>
+# with help and guidance from Mohammed R. Ramadan <mramadan@nattiq.com>
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+file, feel free to send an e-mail to me (yan@mistigri.org), because it's
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# Created by Mario Lang <mlang@delysid.org>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# Created by John Boyer <director@chpi.org>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# Copyright (C) 2017 Rimas Kudelis <rq@akl.lt>
+# Copyright (C) 2017 Tadas Matusevičius <tadas.matus@gmail.com>
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# BRLTTY Contraction Table - Chinese (Taiwan, uncontracted) by Coscell Kao <coscell@gmail.com> (2016-5)
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# Created by Mario Lang <mlang@delysid.org>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+#	Nicolas Pitre <nico@fluxnic.net>
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# Par Nicolas Pitre <nico@fluxnic.net>
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# Created by Mario Lang <mlang@delysid.org>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# Table generated by Bill Haneman <billh@gnome.org>
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+#By Michael Curran <mick@kulgan.net>
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# Created by Mario Lang <mlang@delysid.org>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+  Copyright (C) 2005  Sharif FarsiWeb, Inc. <license@farsiweb.info>
+# Copyright (C) 2014 Luke Yelavich <themuso@ubuntu.com>
+# Copyright (C) 2018 Didier Spaier <didier@slint.fr>
+# Copyright (C) 2007 Lukas Loehrer <listaddr1@gmx.net>
+# Copyright (C) 2007 Gilles Casse <gcasse@oralux.org>
+# Copyright (C) 2011 Rui Batista <ruiandrebatista@gmail.com>
+# Copyright (C) 2011-2016 Luke Yelavich <themuso@themuso.com>
+# Copyright (C) 2014 Luke Yelavich <themuso@ubuntu.com>
+# Copyright (C) 2018 Didier Spaier <didier@slint.fr>
+# Copyright (C) 2018 Florian Steinhardt <no.known.email@example.com>
+# Copyright (C) 2006 Olivier BERT <obert01@mistigri.org>
+# Copyright (C) 2018 Raphaël POITEVIN <rpoitevin@hypra.fr>
+# Copyright (C) 2007 Lukas Loehrer <listaddr1@gmx.net>
+# Copyright (C) 2007 Gilles Casse <gcasse@oralux.org>
+# Copyright (C) 2011 Rui Batista <ruiandrebatista@gmail.com>
+# Copyright (C) 2011 Luke Yelavich <themuso@themuso.com>
+# Copyright (C) 2006 Gary Cramblitt <garycramblitt@comcast.net>
+# Copyright (C) 2007 Lukas Loehrer <listaddr1@gmx.net>
+# Copyright (C) 2007-2013 Gilles Casse <gcasse@oralux.org>
+# Copyright (C) 2010 Christopher Brannon <cmbrannon79@gmail.com>
+# Copyright (C) 2016 Luke Yelavich <themuso@themuso.com>
+# <speechd@freebsoft.org>
+# Copyright (C) 2007 Gilles Casse <gcasse@oralux.org>
+# Copyright (C) 2017 Colomban Wendling <cwendling@hypra.fr>
+# Copyright (C) 2006 Gary Cramblitt <garycramblitt@comcast.net>
+# Copyright (C) 2009 Rui Batista <ruiandrebatista@gmail.com>
+# Copyright (C) 2010 Andrei Kholodnyi <Andrei.Kholodnyi@gmail.com>
+# Copyright (C) 2010 William Hubbs <w.d.hubbs@gmail.com>
+# Copyright (C) 2010 Trevor Saunders <trev.saunders@gmail.com>
+# Copyright (C) 2012 William Jon McCann <jmccann@redhat.com>
+# Copyright (C) 2014 Rob Whyte <fudge@thefudge.net>
+# Copyright (C) 2014-2016 Luke Yelavich <themuso@ubuntu.com>
+# Copyright (C) 2014 Hussain Jasim <hussainmkj@gmail.com>
+# Copyright (C) 2017 Colomban Wendling <cwendling@hypra.fr>
+# Copyright (C) 2018 Raphaël POITEVIN <rpoitevin@hypra.fr>
+# Copyright (C) 2018 Florian Steinhardt <no.known.email@example.com>
+# Copyright (C) 2012 Osamu Aoki <osamu@debian.org>
+# Copyright (C) 2012 Aron Xu <aron@debian.org>
+           "<debian-x@lists.debian.org>."
+# Written by Austin Donnelly <and1000@debian.org>
+# sender=e2scrub@host.domain.name
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# Copyright (C) 2014 Henrique de Moraes Holschuh <hmh@debian.org>
+# Authors: Jason Tang <jtang@tresys.com>
+# Copyright (C) 2010  Alexander Kurtz <kurtz.alex@googlemail.com>
+# Version:	@(#)hwclock.sh  2.00  14-Dec-1998  miquels@cistron.nl
+#		2000-01-30 Henrique M. Holschuh <hmh@rcm.org.br>
+#               2012-02-16 Roger Leigh <rleigh@debian.org>
+# Author:	"Theodore Ts'o" <tytso@mit.edu>
+# Author:       Ryan Murray <rmurray@debian.org>
+# Author: Michael Biebl <biebl@debian.org>
+# Author: Debian Printing Team <debian-printing@lists.debian.org>
+# Copyright © 2003 Colin Walters <walters@debian.org>
+# Copyright © 2005 Sjoerd Simons <sjoerd@debian.org>
+# Edd Dumbill <ejad@debian.org>
+# LSB 3.0 compilance and enhancements by Filippo Giunchedi <filippo@debian.org>
+# Updated for bluez 4.7 by Mario Limonciello <mario_limonciello@dell.com>
+# Updated for bluez 5.5 by Nobuhiro Iwamatsu <iwamatsu@debian.org>
+#  Steve Beattie <steve.beattie@canonical.com>
+#  Kees Cook <kees@ubuntu.com>
+# <rob@mars.org>, edited by iwj and cs
+# Modified for openvpn by Alberto Gonzalez Iniesta <agi@inittab.org>
+# Modified for restarting / starting / stopping single tunnels by Richard Mueller <mueller@teamix.net>
+# Author: Laurent Bigonville <bigon@debian.org>
+;;          Agustin Martin     <agmartin@debian.org>
+Binary file (standard input) matches
+#    Authors: Dustin Kirkland <kirkland@canonical.com>
+#    Authors: Dustin Kirkland <kirkland@canonical.com>
+#             Steve Langasek <steve.langasek@canonical.com>
+#    Authors: Dustin Kirkland <kirkland@canonical.com>,
+#             Brian Murray <brian@canonical.com>
+#    Authors: Jonathan Davies <jonathan.davies@canonical.com>
+#             Bryan Quigley <bryan.quigley@canonical.com>
+#             Rene Engelhard <rene@debian.org>
+#    Author: Bryan Quigley <bryan.quigley@canonical.com>
+#            Rene Engelhard <rene@debian.org>
+# Author: Daniel Dressler <danieru.dressler@gmail.com>
+#    Authors: Bryan Quigley <bryan.quigley@canonical.com>
+#             Rene Engelhard <rene@debian.org>
+# Author: Jamie Strandboge <jamie@canonical.com>
+#    Copyright (C) 2016 intrigeri <intrigeri@boum.org>
+#    Authors: Bryan Quigley <bryan.quigley@canonical.com>
+#             Rene Engelhard <rene@debian.org>
+# Author: Martin Pitt <martin.pitt@ubuntu.com>
+# Author: Jamie Strandboge <jamie@canonical.com>
+#header = From: Your Name <username@site.domain>
+Binary file (standard input) matches
+Binary file (standard input) matches
+Binary file (standard input) matches
+Binary file (standard input) matches
+// 'mailx' must be installed. E.g. "user@example.com"
+        MetaKey "$(COMPONENT)/dep11/icons-64x64@2.tar";
+        MetaKey "$(COMPONENT)/dep11/icons-128x128@2.tar";
+# Originally created by Jim Knoble <jmknoble@mercury.interpath.net>
+# Modified for Debian by alvar Bray <alvar@meiko.co.uk>
+# Modified for PPP Server setup by Christoph Lameter <clameter@debian.org>
+# Author: Gunnar Hjalmarsson <gunnarhj@ubuntu.com>
+#   MACs hmac-md5,hmac-sha1,umac-64@openssh.com
+# Jon Chambers <jon@jon.demon.co.uk>, 2006-08-12
+# the SANE/Avision maintainer: Mike Kelly <mike@piratehaven.org>
+#   Copyright (C) 1998, 1999 Jean Pierre LeJacq <jplejacq@quoininc.com>
+#   Modified 2003 by Martin Pitt <martin@piware.de>
+# Author: Gunnar Hjalmarsson <gunnarhj@ubuntu.com>
+# Copyright: Copyright (c) 2008-2010, Kel Modderman <kel@otaku42.de>
+# <pkg-wpa-devel@lists.alioth.debian.org>
+# <pkg-wpa-devel@lists.alioth.debian.org>
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# Maintained by John J. Boyer, director@chpi.org, www.chpi.org
+# This table is built and maintained by Leon Ungier <Leon.Ungier@ViewPlus.com>
+# with help and guidance from Mohammed R. Ramadan <mramadan@nattiq.com>
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# Maintained by John J. Boyer, director@chpi.org, www.chpi.org
+# This table is built and maintained by Leon Ungier <Leon.Ungier@ViewPlus.com>
+# with help and guidance from Mohammed R. Ramadan <mramadan@nattiq.com>
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# Created by Leon Ungier <Leon.Ungier@ViewPlus.com>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# Dave Mielke <dave@mielke.cc>
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# Dave Mielke <dave@mielke.cc>
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# Table generated by Sébastien Sablé <sable@users.sourceforge.net> for
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# Maintained by John J. Boyer, director@chpi.org, www.chpi.org
+# This table is built and maintained by Leon Ungier <Leon.Ungier@ViewPlus.com>
+# with help and guidance from Mohammed R. Ramadan <mramadan@nattiq.com>
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# Created by Leon Ungier <Leon.Ungier@ViewPlus.com>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# Created by Leon Ungier <Leon.Ungier@ViewPlus.com>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# Copyright (C) 2017 Rimas Kudelis <rq@akl.lt>
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# Maintained by John J. Boyer, director@chpi.org, www.chpi.org
+# This table is built and maintained by Leon Ungier <Leon.Ungier@ViewPlus.com>
+# with help and guidance from Mohammed R. Ramadan <mramadan@nattiq.com>
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# Birkir Gunnarsson, birkir@midstod.is
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# Maintained by John J. Boyer, director@chpi.org, www.chpi.org
+# This table is built and maintained by Leon Ungier <Leon.Ungier@ViewPlus.com>
+# with help and guidance from Mohammed R. Ramadan <mramadan@nattiq.com>
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# Maintained by John J. Boyer, director@chpi.org, www.chpi.org
+# This table is built and maintained by Leon Ungier <Leon.Ungier@ViewPlus.com>
+# with help and guidance from Mohammed R. Ramadan <mramadan@nattiq.com>
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# Maintained by John J. Boyer, director@chpi.org, www.chpi.org
+# This table is built and maintained by Leon Ungier <Leon.Ungier@ViewPlus.com>
+# with help and guidance from Mohammed R. Ramadan <mramadan@nattiq.com>
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# modeled from Russian Braille table by Victor Tsaran <vtsaran@gmail.com>
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# Maintained by John J. Boyer, director@chpi.org, www.chpi.org
+# This table is built and maintained by Leon Ungier <Leon.Ungier@ViewPlus.com>
+# with help and guidance from Mohammed R. Ramadan <mramadan@nattiq.com>
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# Created & maintained by Leon Ungier <Leon.Ungier@ViewPlus.com>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# Adi Kushnir <adikushnir@gmail.com>
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# Created and maintained by Mike Sivill #<mike.sivill@viewplus.com>
+# Modified by Dave Mielke <dave@mielke.cc>
+# with advice from Jan Buchal <buchal@brailcom.org>
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# Tomas Mårdsjö <tomas.mardsjo@icap.nu>
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# Maintained by John J. Boyer, director@chpi.org, www.chpi.org
+# This table is built and maintained by Leon Ungier <Leon.Ungier@ViewPlus.com>
+# with help and guidance from Mohammed R. Ramadan <mramadan@nattiq.com>
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# Table generated by Sébastien Sablé <sable@users.sourceforge.net> for
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# Maintained by John J. Boyer, director@chpi.org, www.chpi.org
+# This table is built and maintained by Leon Ungier <Leon.Ungier@ViewPlus.com>
+# with help and guidance from Mohammed R. Ramadan <mramadan@nattiq.com>
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# Maintained by: Dave Mielke <dave@mielke.cc>
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# by Hans Schou <chlor@schou.dk> and Dave Mielke <dave@mielke.cc>
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# Updated by Zsolt Torma <torma.zsolt@infoalap.hu>
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# esperanto-muzeo@wanadoo.fr
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# Maintained by John J. Boyer, director@chpi.org, www.chpi.org
+# This table is built and maintained by Leon Ungier <Leon.Ungier@ViewPlus.com>
+# with help and guidance from Mohammed R. Ramadan <mramadan@nattiq.com>
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+file, feel free to send an e-mail to me (yan@mistigri.org), because it's
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# Created by Mario Lang <mlang@delysid.org>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# Created by John Boyer <director@chpi.org>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# Copyright (C) 2017 Rimas Kudelis <rq@akl.lt>
+# Copyright (C) 2017 Tadas Matusevičius <tadas.matus@gmail.com>
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# BRLTTY Contraction Table - Chinese (Taiwan, uncontracted) by Coscell Kao <coscell@gmail.com> (2016-5)
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# Created by Mario Lang <mlang@delysid.org>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+#	Nicolas Pitre <nico@fluxnic.net>
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# Par Nicolas Pitre <nico@fluxnic.net>
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# Created by Mario Lang <mlang@delysid.org>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# Table generated by Bill Haneman <billh@gnome.org>
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+#By Michael Curran <mick@kulgan.net>
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# Created by Mario Lang <mlang@delysid.org>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+  Copyright (C) 2005  Sharif FarsiWeb, Inc. <license@farsiweb.info>
+# Copyright (C) 2014 Luke Yelavich <themuso@ubuntu.com>
+# Copyright (C) 2018 Didier Spaier <didier@slint.fr>
+# Copyright (C) 2007 Lukas Loehrer <listaddr1@gmx.net>
+# Copyright (C) 2007 Gilles Casse <gcasse@oralux.org>
+# Copyright (C) 2011 Rui Batista <ruiandrebatista@gmail.com>
+# Copyright (C) 2011-2016 Luke Yelavich <themuso@themuso.com>
+# Copyright (C) 2014 Luke Yelavich <themuso@ubuntu.com>
+# Copyright (C) 2018 Didier Spaier <didier@slint.fr>
+# Copyright (C) 2018 Florian Steinhardt <no.known.email@example.com>
+# Copyright (C) 2006 Olivier BERT <obert01@mistigri.org>
+# Copyright (C) 2018 Raphaël POITEVIN <rpoitevin@hypra.fr>
+# Copyright (C) 2007 Lukas Loehrer <listaddr1@gmx.net>
+# Copyright (C) 2007 Gilles Casse <gcasse@oralux.org>
+# Copyright (C) 2011 Rui Batista <ruiandrebatista@gmail.com>
+# Copyright (C) 2011 Luke Yelavich <themuso@themuso.com>
+# Copyright (C) 2006 Gary Cramblitt <garycramblitt@comcast.net>
+# Copyright (C) 2007 Lukas Loehrer <listaddr1@gmx.net>
+# Copyright (C) 2007-2013 Gilles Casse <gcasse@oralux.org>
+# Copyright (C) 2010 Christopher Brannon <cmbrannon79@gmail.com>
+# Copyright (C) 2016 Luke Yelavich <themuso@themuso.com>
+# <speechd@freebsoft.org>
+# Copyright (C) 2007 Gilles Casse <gcasse@oralux.org>
+# Copyright (C) 2017 Colomban Wendling <cwendling@hypra.fr>
+# Copyright (C) 2006 Gary Cramblitt <garycramblitt@comcast.net>
+# Copyright (C) 2009 Rui Batista <ruiandrebatista@gmail.com>
+# Copyright (C) 2010 Andrei Kholodnyi <Andrei.Kholodnyi@gmail.com>
+# Copyright (C) 2010 William Hubbs <w.d.hubbs@gmail.com>
+# Copyright (C) 2010 Trevor Saunders <trev.saunders@gmail.com>
+# Copyright (C) 2012 William Jon McCann <jmccann@redhat.com>
+# Copyright (C) 2014 Rob Whyte <fudge@thefudge.net>
+# Copyright (C) 2014-2016 Luke Yelavich <themuso@ubuntu.com>
+# Copyright (C) 2014 Hussain Jasim <hussainmkj@gmail.com>
+# Copyright (C) 2017 Colomban Wendling <cwendling@hypra.fr>
+# Copyright (C) 2018 Raphaël POITEVIN <rpoitevin@hypra.fr>
+# Copyright (C) 2018 Florian Steinhardt <no.known.email@example.com>
+# Copyright (C) 2012 Osamu Aoki <osamu@debian.org>
+# Copyright (C) 2012 Aron Xu <aron@debian.org>
+           "<debian-x@lists.debian.org>."
+# Written by Austin Donnelly <and1000@debian.org>
+# sender=e2scrub@host.domain.name
+# This software is maintained by Dave Mielke <dave@mielke.cc>.
+# Copyright (C) 2014 Henrique de Moraes Holschuh <hmh@debian.org>

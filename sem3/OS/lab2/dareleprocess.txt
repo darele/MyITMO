@@ -1,0 +1,11 @@
+962:--telemetry-level=all
+963:--telemetry-level=all
+968:--telemetry-level=all
+972:--telemetry-level=all
+983:/home/darele/.vscode-server/data/logs/20221020T120550
+1013:--useHostProxy=true
+1020:--type=fileWatcher
+1241:/home/darele/.vscode-server/bin/129500ee4c8ab7263461ffe327268ba56b9f210d/out/vs/workbench/contrib/terminal/browser/media/shellIntegration-bash.sh
+1381:1.sh
+1382:axu
+1383:}

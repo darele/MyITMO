@@ -1,0 +1,9 @@
+(defn escape [s]
+    (clojure.string/escape s {\' "'" \" "\\\"" \\ "\\\\"})
+)
+(def src "?")
+(def thisSrc "~")
+(def p (clojure.string/index-of src "?"))
+(def p2 (clojure.string/index-of src "~"))
+(println (str (subs src 0 p) (escape thisSrc) (subs src (+ p 1) p2) (escape src) (subs src (+ p2 1))))
+

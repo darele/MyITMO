@@ -1,0 +1,19 @@
+start: s
+accept: ac
+reject: rj
+blank: _
+
+s _ -> verify _ <
+s ( -> s ( >
+s x -> s x >
+s ) -> closed x <
+
+closed ( -> s x >
+closed ) -> rj ) ^
+closed x -> closed x <
+closed _ -> rj _ ^
+
+verify x -> verify x <
+verify ( -> rj ( ^
+verify ) -> verify ) ^
+verify _ -> ac _ ^

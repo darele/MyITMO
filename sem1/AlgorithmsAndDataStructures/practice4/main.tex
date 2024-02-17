@@ -1,0 +1,35 @@
+\documentclass{article}
+\usepackage[T2A]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage[russian]{babel}
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage[makeroom]{cancel}
+\usepackage{hyphenat}
+\hyphenation{ма-те-ма-ти-ка вос-ста-нав-ли-вать}
+\usepackage{graphicx}
+\usepackage{listings}
+
+\title{практика №5}
+\author{Дарвин Эдлеазар Пиче Круз}
+
+\begin{document}
+
+\maketitle
+
+\section*{4.4}
+Дан массив неотрицательных чисел длины n. За $\mathcal{O}(n)$ времени найдите количество
+его отрезков, сумма его элементов на каждом из которых не превосходит S.
+
+\begin{lstlisting}
+    sum = prefix_array(arr)
+    j = 0
+    ans = 0
+    while i < n:
+        while (j < n  and sum[j] - sum[i] <= S):
+            ans += (j + 1 - i)
+            j++
+        i++
+    print(ans)
+\end{lstlisting}
+\end{document}

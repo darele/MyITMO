@@ -1,0 +1,31 @@
+start: s
+accept: ac
+reject: rj
+blank: _
+
+s _ -> searchNext x <
+s 0 -> s 0 >
+s 1 -> s 1 >
+
+searchNext x -> searchNext x <
+searchNext 0 -> write0 x >
+searchNext 1 -> write1 x >
+searchNext _ -> erase _ >
+
+write0 0 -> write0 0 >
+write0 1 -> write0 1 >
+write0 x -> write0 x >
+write0 _ -> searchX 0 <
+
+write1 0 -> write1 0 >
+write1 1 -> write1 1 >
+write1 x -> write1 x >
+write1 _ -> searchX 1 <
+
+searchX 0 -> searchX 0 <
+searchX 1 -> searchX 1 <
+searchX x -> searchNext x <
+
+erase x -> erase _ >
+erase 0 -> ac 0 ^
+erase 1 -> ac 1 ^

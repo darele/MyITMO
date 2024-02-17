@@ -1,0 +1,113 @@
+
+footer {
+    margin-top: 2rem;
+    border-top: 1px solid var(--border-color);
+    padding-top: 0.5rem;
+    text-align: center;
+}
+
+aside section {
+    border: 1px solid var(--border-color);
+    border-top-left-radius: var(--border-radius);
+    border-top-right-radius: var(--border-radius);
+}
+
+aside section .header {
+    border-bottom: 1px solid var(--border-color);
+    padding: 0.25rem;
+    font-weight: bold;
+    color: var(--caption-color);
+}
+
+aside section .header:before {
+    content: "→";
+}
+
+aside section .body {
+    padding: 1rem;
+}
+
+aside section .footer {
+    border-top: 1px solid var(--border-color);
+    overflow: auto;
+    padding: 0.25rem;
+}
+
+aside section .footer a {
+    float: right;
+    font-size: 0.75rem;
+}
+
+aside section .footer a:after {
+    content: " →";
+}
+
+.middle main article .title {
+    font-size: 1.5rem !important;
+    font-weight: bold;
+    color: var(--caption-color);
+    margin-bottom: 2px;
+}
+
+.middle main article .information {
+    color: #7F7D7D;
+    font-size: 0.95em !important;
+}
+
+.middle main article .body {
+    padding-left: 10px;
+    border-left: 5px solid var(--border-color);
+    letter-spacing: 0px;
+
+}
+
+.middle main article .attachment{
+    color: #7F7D7D;
+    font-size: 0.95em !important;
+
+}
+
+.middle main article .attachment li{
+    list-style-type: none;
+    list-style-image: url(../img/paperclip-16x16.png);
+    margin-left: -1.2em;
+    padding: 0;
+}
+
+.middle main article .footer {
+    overflow: hidden;
+    border: 1px solid var(--border-color);
+    border-radius: 6px;
+    padding: 0.5em;
+    padding-top: 0.4em;
+    padding-bottom: 0.2em;
+}
+
+.middle main article .footer .left {
+    position: relative;
+    float: left;
+}
+
+.middle main article .footer .left img {
+    position: relative;
+    top: 0em;
+}
+
+.middle main article .footer .left .positive-score {
+    position: relative;
+    top: -5px;
+    color: green;
+    font-weight: bold;
+}
+
+.middle main article .footer .right {
+    position: relative;
+    float: right;
+    font-size: 0.9em;
+    text-align: top;
+}
+
+.middle main article .footer .right img {
+    position: relative;
+    top: 0.2em;
+}

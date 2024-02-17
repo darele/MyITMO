@@ -1,0 +1,58 @@
+\documentclass{article}
+\usepackage[T2A]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage[russian]{babel}
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage[makeroom]{cancel}
+\usepackage{hyphenat}
+\hyphenation{ма-те-ма-ти-ка вос-ста-нав-ли-вать}
+\usepackage{graphicx}
+\usepackage{listings}
+
+\title{Практика №5}
+\author{Дарвин Эдлеазар Пиче Круз}
+
+\begin{document}
+
+\maketitle
+
+\section*{5.8}
+
+В игре есть $n$ типов ресурсов, для постройки одного юнита требуется $a_i$ единиц ресурса $i$ для всех $i$. У игрока есть bi единиц ресурса $i$ для каждого $i$, и еще $c$ единиц золота.
+Одну единицу золота можно обменять на $d_i$ единиц ресурса i для произвольного $i$.
+Сколько юнитов может построить игрок?
+
+\section*{Решение}
+
+\begin{lstlisting}
+    arr = max_heap of pairs
+    ans = 0
+    for i in 0..n:
+        //What I can get with my current resources
+        ans += (b[i] / a[i])
+        
+        //how close I am to get another Uton for 
+        //every i if I add d[i] (use a gold piece)
+        //(positive results are even better :))
+        arr.push([d[i] - (b[i] - (a[i] % b[i])), i]);
+    
+    while(c > 0):
+        //always trade the cheapest resource
+        t = arr.top().first
+        i = arr.top().second
+        arr.pop();
+        if (t >= 0):
+            ans += t / b[i]
+            t -= ((t / b[i]) * b[i])
+        
+        //again, if I add d[i], how close 
+        //am I from the next Uton?
+        arr.push([d[i] - (b[i] - t), i]);
+        
+        c -= 1
+        
+    print(ans)
+\end{lstlisting}
+
+\end{document}
